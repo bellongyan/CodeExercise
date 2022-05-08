@@ -6,3 +6,6 @@
 BasicLevel目录是PAT_BasicLevel的题目
 
 PTA_TEST目录是学校发的题目
+
+[C语言必刷题集1-分支](./PTA_TEST/1)
+[C语言必刷题集2-循环](./PTA_TEST/2)
