@@ -22,23 +22,24 @@
 // @Author:longyan
 // @Date:2022/6/17
 
-#include<iostream>
-#include<algorithm>
-#include<array>
-#include<vector>
+#include <iostream>
+#include <algorithm>
+#include <vector>
 
 using namespace std;
 
-vector<int> MaxToMin(vector<int>a) {
-	vector<int>b;
+vector<int> MaxToMin(vector<int> a)
+{
+	vector<int> b;
 	partial_sort(a.begin(), a.end(), a.end());
-	for (int i : a) {
-//		printf("%d", i);
+	for (int i : a)
+	{
 		b.push_back(i);
 	}
 	return b;
 }
-int main() {
+int main()
+{
 	int num;
 	cin >> num;
 	int final = num;
@@ -52,16 +53,20 @@ int main() {
 	d = num;
 	int answer = -1;
 
-	if (a == b && a == c && a == d) {
+	if (a == b && a == c && a == d)
+	{
 		printf("%04d - %04d = 0000\n", final, final);
-	} else {
-		while (answer != 6174) {
-			vector<int>q;
+	}
+	else
+	{
+		while (answer != 6174)
+		{
+			vector<int> q;
 			q.push_back(a);
 			q.push_back(b);
 			q.push_back(c);
 			q.push_back(d);
-			vector<int>test = MaxToMin(q);
+			vector<int> test = MaxToMin(q);
 			int max = -1, semax = -1, semin = -1, min = -1;
 			max = test.back();
 			test.pop_back();
@@ -76,7 +81,7 @@ int main() {
 			int seconde = min * 1000 + semin * 100 + semax * 10 + max;
 			answer = first - seconde;
 			printf("%04d - %04d = %04d\n", first, seconde, answer);
-			
+
 			a = answer % 10;
 			answer /= 10;
 			b = answer % 10;
@@ -84,10 +89,9 @@ int main() {
 			c = answer % 10;
 			answer /= 10;
 			d = answer;
-			
+
 			answer = first - seconde;
 		}
-
 	}
 
 	return 0;
