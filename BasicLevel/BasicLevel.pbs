@@ -1,0 +1,78 @@
+{
+    "name": "PTA",
+    "problems": [
+        {
+            "answer_program": "E:/Projects/Dev-C++/PTA/1016.cpp",
+            "cases": [
+                {
+                    "expected": "399\n",
+                    "expected_output_filename": "",
+                    "input": "3862767 6 13530293 3\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                },
+                {
+                    "expected": "0\n",
+                    "expected_output_filename": "",
+                    "input": "3862767 1 13530293 8\n",
+                    "input_filename": "",
+                    "name": "试题案例2"
+                }
+            ],
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:19px; font-weight:400; font-style:normal;\">\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>",
+            "name": "1016",
+            "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805306310115328"
+        },
+        {
+            "answer_program": "E:/Projects/Dev-C++/PTA/1017.cpp",
+            "cases": [
+                {
+                    "expected": "17636684150141093474 3\n",
+                    "expected_output_filename": "",
+                    "input": "123456789050987654321 7\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                }
+            ],
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:19px; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">本题要求计算 A/B，其中 A 是不超过 1000 位的正整数，B 是 1 位正整数。你需要输出商数 Q 和余数 R，使得 A=B×Q+R 成立。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输入格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">入格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">输入在一行中依次给出 A 和 B，中间以 1 空格分隔。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输出格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">出格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">在一行中依次输出 Q 和 R，中间以 1 空格分隔。</p></body></html>",
+            "name": "1017",
+            "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805305181847552"
+        },
+        {
+            "answer_program": "E:/Projects/Dev-C++/PTA/1018.cpp",
+            "cases": [
+                {
+                    "expected": "5 3 2\n2 3 5\nB B\n",
+                    "expected_output_filename": "",
+                    "input": "10\nC J\nJ B\nC B\nB B\nB C\nC C\nC B\nJ B\nB C\nJ J\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                }
+            ],
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:19px; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">大家应该都会玩“锤子剪刀布”的游戏：两人同时给出手势，胜负规则如图所示：</p>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\"https://images.ptausercontent.com/724da598-b37f-4f1f-99b4-71459654ce3a.jpg\" alt=\"FigCJB.jpg\" /></p>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">现给出两人的交锋记录，请统计双方的胜、平、负次数，并且给出双方分别出什么手势的胜算最大。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输入格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">入格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">输入第 1 行给出正整数 N（≤105），即双方交锋的次数。随后 N 行，每行给出一次交锋的信息，即甲、乙双方同时给出的的手势。<span style=\" font-family:'Courier New';\">C</span> 代表“锤子”、<span style=\" font-family:'Courier New';\">J</span> 代表“剪刀”、<span style=\" font-family:'Courier New';\">B</span> 代表“布”，第 1 个字母代表甲方，第 2 个代表乙方，中间有 1 个空格。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输出格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">出格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">输出第 1、2 行分别给出甲、乙的胜、平、负次数，数字间以 1 个空格分隔。第 3 行给出两个字母，分别代表甲、乙获胜次数最多的手势，中间有 1 个空格。如果解不唯一，则输出按字母序最小的解。</p></body></html>",
+            "name": "1018",
+            "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805304020025344"
+        },
+        {
+            "cases": [
+                {
+                    "expected": "7766 - 6677 = 1089\n9810 - 0189 = 9621\n9621 - 1269 = 8352\n8532 - 2358 = 6174\n",
+                    "expected_output_filename": "",
+                    "input": "6767\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                },
+                {
+                    "expected": "2222 - 2222 = 0000\n",
+                    "expected_output_filename": "",
+                    "input": "2222\n",
+                    "input_filename": "",
+                    "name": "试题案例2"
+                }
+            ],
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:19px; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">给定任一个各位数字不完全相同的 4 位正整数，如果我们先把 4 个数字按非递增排序，再按非递减排序，然后用第 1 个数字减第 2 个数字，将得到一个新的数字。一直重复这样做，我们很快会停在有“数字黑洞”之称的 <span style=\" font-family:'Courier New';\">6174</span>，这个神奇的数字也叫 Kaprekar 常数。</p>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">例如，我们从<span style=\" font-family:'Courier New';\">6767</span>开始，将得到</p>\n<pre style=\" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Courier New';\">7766 - 6677 = 1089</span></pre>\n<pre style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Courier New';\">9810 - 0189 = 9621</span></pre>\n<pre style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Courier New';\">9621 - 1269 = 8352</span></pre>\n<pre style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Courier New';\">8532 - 2358 = 6174</span></pre>\n<pre style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Courier New';\">7641 - 1467 = 6174</span></pre>\n<pre style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Courier New';\">... ...</span></pre>\n<pre style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Courier New';\"><br /></pre>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">现给定任意 4 位正整数，请编写程序演示到达黑洞的过程。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输入格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">入格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">输入给出一个 (0,104) 区间内的正整数 N。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输出格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">出格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">如果 N 的 4 位数字全相等，则在一行内输出 <span style=\" font-family:'Courier New';\">N - N = 0000</span>；否则将计算的每一步在一行内输出，直到 <span style=\" font-family:'Courier New';\">6174</span> 作为差出现，输出格式见样例。注意每个数字按 <span style=\" font-family:'Courier New';\">4</span> 位数格式输出。</p></body></html>",
+            "name": "1019",
+            "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805302786899968"
+        }
+    ]
+}
