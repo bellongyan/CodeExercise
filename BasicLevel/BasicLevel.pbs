@@ -2,6 +2,213 @@
     "name": "PTA",
     "problems": [
         {
+            "answer_program": "E:/Projects/Dev-C++/PTA/1001.c",
+            "cases": [
+                {
+                    "expected": "5\n",
+                    "expected_output_filename": "",
+                    "input": "3\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                }
+            ],
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:19px; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">卡拉兹(Callatz)猜想：</p>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">对任何一个正整数 n，如果它是偶数，那么把它砍掉一半；如果它是奇数，那么把 (3n+1) 砍掉一半。这样一直反复砍下去，最后一定在某一步得到 n=1。卡拉兹在 1950 年的世界数学家大会上公布了这个猜想，传说当时耶鲁大学师生齐动员，拼命想证明这个貌似很傻很天真的命题，结果闹得学生们无心学业，一心只证 (3n+1)，以至于有人说这是一个阴谋，卡拉兹是在蓄意延缓美国数学界教学与科研的进展……</p>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">我们今天的题目不是证明卡拉兹猜想，而是对给定的任一不超过 1000 的正整数 n，简单地数一下，需要多少步（砍几下）才能得到 n=1？</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输入格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">入格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">每个测试输入包含 1 个测试用例，即给出正整数 n 的值。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输出格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">出格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">输出从 n 计算到 1 需要的步数。</p></body></html>",
+            "name": "1001",
+            "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805325918486528"
+        },
+        {
+            "answer_program": "E:/Projects/Dev-C++/PTA/1002.c",
+            "cases": [
+                {
+                    "expected": "",
+                    "expected_output_filename": "",
+                    "input": "",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                }
+            ],
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:19px; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">读入一个正整数 n，计算其各位数字之和，用汉语拼音写出和的每一位数字。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输入格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">入格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">每个测试输入包含 1 个测试用例，即给出自然数 n 的值。这里保证 n 小于 10100。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输出格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">出格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">在一行内输出 n 的各位数字之和的每一位，拼音数字间有 1 空格，但一行中最后一个拼音数字后没有空格。</p></body></html>",
+            "name": "1002",
+            "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805324509200384"
+        },
+        {
+            "answer_program": "E:/Projects/Dev-C++/PTA/1003.c",
+            "cases": [
+                {
+                    "expected": "YES\nYES\nYES\nYES\nNO\nNO\nNO\nNO\nNO\nNO\n",
+                    "expected_output_filename": "",
+                    "input": "10\nPAT\nPAAT\nAAPATAA\nAAPAATAAAA\nxPATx\nPT\nWhatever\nAPAAATAA\nAPT\nAPATTAA\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                }
+            ],
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:19px; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">“<span style=\" font-weight:600;\">答案正确</span>”是自动判题系统给出的最令人欢喜的回复。本题属于 PAT 的“<span style=\" font-weight:600;\">答案正确</span>”大派送 —— 只要读入的字符串满足下列条件，系统就输出“<span style=\" font-weight:600;\">答案正确</span>”，否则输出“<span style=\" font-weight:600;\">答案错误</span>”。</p>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">得到“<span style=\" font-weight:600;\">答案正确</span>”的条件是：</p>\n<ol style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">字符串中必须仅有 <span style=\" font-family:'Courier New';\">P</span>、 <span style=\" font-family:'Courier New';\">A</span>、 <span style=\" font-family:'Courier New';\">T</span>这三种字符，不可以包含其它字符；</li>\n<li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">任意形如 <span style=\" font-family:'Courier New';\">xPATx</span> 的字符串都可以获得“<span style=\" font-weight:600;\">答案正确</span>”，其中 <span style=\" font-family:'Courier New';\">x</span> 或者是空字符串，或者是仅由字母 <span style=\" font-family:'Courier New';\">A</span> 组成的字符串；</li>\n<li style=\" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">如果 <span style=\" font-family:'Courier New';\">aPbTc</span> 是正确的，那么 <span style=\" font-family:'Courier New';\">aPbATca</span> 也是正确的，其中 <span style=\" font-family:'Courier New';\">a</span>、 <span style=\" font-family:'Courier New';\">b</span>、 <span style=\" font-family:'Courier New';\">c</span> 均或者是空字符串，或者是仅由字母 <span style=\" font-family:'Courier New';\">A</span> 组成的字符串。</li></ol>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">现在就请你为 PAT 写一个自动裁判程序，判定哪些字符串是可以获得“<span style=\" font-weight:600;\">答案正确</span>”的。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输入格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">入格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">每个测试输入包含 1 个测试用例。第 1 行给出一个正整数 n (≤10)，是需要检测的字符串个数。接下来每个字符串占一行，字符串长度不超过 100，且不包含空格。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输出格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">出格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">每个字符串的检测结果占一行，如果该字符串可以获得“<span style=\" font-weight:600;\">答案正确</span>”，则输出 <span style=\" font-family:'Courier New';\">YES</span>，否则输出 <span style=\" font-family:'Courier New';\">NO</span>。</p></body></html>",
+            "name": "1003",
+            "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805323154440192"
+        },
+        {
+            "answer_program": "E:/Projects/Dev-C++/PTA/1004.c",
+            "cases": [
+                {
+                    "expected": "Mike CS991301\nJoe Math990112\n",
+                    "expected_output_filename": "",
+                    "input": "3\nJoe Math990112 89\nMike CS991301 100\nMary EE990830 95\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                }
+            ],
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:19px; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">读入 n（&gt;0）名学生的姓名、学号、成绩，分别输出成绩最高和成绩最低学生的姓名和学号。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输入格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">入格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">每个测试输入包含 1 个测试用例，格式为</p>\n<pre style=\" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Courier New';\">第 1 行：正整数 n</span></pre>\n<pre style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Courier New';\">第 2 行：第 1 个学生的姓名 学号 成绩</span></pre>\n<pre style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Courier New';\">第 3 行：第 2 个学生的姓名 学号 成绩</span></pre>\n<pre style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Courier New';\">  ... ... ...</span></pre>\n<pre style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Courier New';\">第 n+1 行：第 n 个学生的姓名 学号 成绩</span></pre>\n<pre style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Courier New';\"><br /></pre>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">其中<span style=\" font-family:'Courier New';\">姓名</span>和<span style=\" font-family:'Courier New';\">学号</span>均为不超过 10 个字符的字符串，成绩为 0 到 100 之间的一个整数，这里保证在一组测试用例中没有两个学生的成绩是相同的。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输出格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">出格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">对每个测试用例输出 2 行，第 1 行是成绩最高学生的姓名和学号，第 2 行是成绩最低学生的姓名和学号，字符串间有 1 空格。</p></body></html>",
+            "name": "1004",
+            "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805321640296448"
+        },
+        {
+            "answer_program": "E:/Projects/Dev-C++/PTA/1005.c",
+            "cases": [
+                {
+                    "expected": "7 6\n",
+                    "expected_output_filename": "",
+                    "input": "6\n3 5 6 7 8 11\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                }
+            ],
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:19px; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">卡拉兹(Callatz)猜想已经在1001中给出了描述。在这个题目里，情况稍微有些复杂。</p>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">当我们验证卡拉兹猜想的时候，为了避免重复计算，可以记录下递推过程中遇到的每一个数。例如对 n=3 进行验证的时候，我们需要计算 3、5、8、4、2、1，则当我们对 n=5、8、4、2 进行验证的时候，就可以直接判定卡拉兹猜想的真伪，而不需要重复计算，因为这 4 个数已经在验证3的时候遇到过了，我们称 5、8、4、2 是被 3“覆盖”的数。我们称一个数列中的某个数 n 为“关键数”，如果 n 不能被数列中的其他数字所覆盖。</p>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">现在给定一系列待验证的数字，我们只需要验证其中的几个关键数，就可以不必再重复验证余下的数字。你的任务就是找出这些关键数字，并按从大到小的顺序输出它们。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输入格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">入格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">每个测试输入包含 1 个测试用例，第 1 行给出一个正整数 K (&lt;100)，第 2 行给出 K 个互不相同的待验证的正整数 n (1&lt;n≤100)的值，数字间用空格隔开。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输出格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">出格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">每个测试用例的输出占一行，按从大到小的顺序输出关键数字。数字间用 1 个空格隔开，但一行中最后一个数字后没有空格。</p></body></html>",
+            "name": "1005",
+            "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805320306507776"
+        },
+        {
+            "answer_program": "E:/Projects/Dev-C++/PTA/1006.c",
+            "cases": [
+                {
+                    "expected": "BBSSS1234\n",
+                    "expected_output_filename": "",
+                    "input": "234\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                },
+                {
+                    "expected": "SS123\n",
+                    "expected_output_filename": "",
+                    "input": "23\n",
+                    "input_filename": "",
+                    "name": "试题案例2"
+                }
+            ],
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:19px; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">让我们用字母 <span style=\" font-family:'Courier New';\">B</span> 来表示“百”、字母 <span style=\" font-family:'Courier New';\">S</span> 表示“十”，用 <span style=\" font-family:'Courier New';\">12...n</span> 来表示不为零的个位数字 <span style=\" font-family:'Courier New';\">n</span>（&lt;10），换个格式来输出任一个不超过 3 位的正整数。例如 <span style=\" font-family:'Courier New';\">234</span> 应该被输出为 <span style=\" font-family:'Courier New';\">BBSSS1234</span>，因为它有 2 个“百”、3 个“十”、以及个位的 4。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输入格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">入格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">每个测试输入包含 1 个测试用例，给出正整数 n（&lt;1000）。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输出格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">出格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">每个测试用例的输出占一行，用规定的格式输出 n。</p></body></html>",
+            "name": "1006",
+            "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805318855278592"
+        },
+        {
+            "answer_program": "E:/Projects/Dev-C++/PTA/1007.c",
+            "cases": [
+                {
+                    "expected": "4\n",
+                    "expected_output_filename": "",
+                    "input": "20\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                }
+            ],
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:19px; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">让我们定义dn​为：dn​=pn+1​−pn​，其中pi​是第i个素数。显然有d1​=1，且对于n&gt;1有dn​是偶数。“素数对猜想”认为“存在无穷多对相邻且差为2的素数”。</p>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">现给定任意正整数<span style=\" font-family:'Courier New';\">N</span>(&lt;105)，请计算不超过<span style=\" font-family:'Courier New';\">N</span>的满足猜想的素数对的个数。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输入格式\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">入格式:</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">输入在一行给出正整数<span style=\" font-family:'Courier New';\">N</span>。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输出格式\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">出格式:</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">在一行中输出不超过<span style=\" font-family:'Courier New';\">N</span>的满足猜想的素数对的个数。</p></body></html>",
+            "name": "1007",
+            "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805317546655744"
+        },
+        {
+            "answer_program": "E:/Projects/Dev-C++/PTA/1008.c",
+            "cases": [
+                {
+                    "expected": "5 6 1 2 3 4\n",
+                    "expected_output_filename": "",
+                    "input": "6 2\n1 2 3 4 5 6\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                }
+            ],
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:19px; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">一个数组A中存有N（&gt;0）个整数，在不允许使用另外数组的前提下，将每个整数循环向右移M（≥0）个位置，即将A中的数据由（A0​A1​⋯AN−1​）变换为（AN−M​⋯AN−1​A0​A1​⋯AN−M−1​）（最后M个数循环移至最前面的M个位置）。如果需要考虑程序移动数据的次数尽量少，要如何设计移动的方法？</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输入格式\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">入格式:</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">每个输入包含一个测试用例，第1行输入N（1≤N≤100）和M（≥0）；第2行输入N个整数，之间用空格分隔。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输出格式\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">出格式:</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">在一行中输出循环右移M位以后的整数序列，之间用空格分隔，序列结尾不能有多余空格。</p></body></html>",
+            "name": "1008",
+            "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805316250615808"
+        },
+        {
+            "cases": [
+                {
+                    "expected": "",
+                    "expected_output_filename": "",
+                    "input": "",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                }
+            ],
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:19px; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">给定一句英语，要求你编写程序，将句中所有单词的顺序颠倒输出。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输入格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">入格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">测试输入包含一个测试用例，在一行内给出总长度不超过 80 的字符串。字符串由若干单词和若干空格组成，其中单词是由英文字母（大小写有区分）组成的字符串，单词之间用 1 个空格分开，输入保证句子末尾没有多余的空格。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输出格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">出格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">每个测试用例的输出占一行，输出倒序后的句子。</p></body></html>",
+            "name": "1009",
+            "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805314941992960"
+        },
+        {
+            "cases": [
+                {
+                    "expected": "3 4 -5 2 6 1 -2 0\n",
+                    "expected_output_filename": "",
+                    "input": "3 4 -5 2 6 1 -2 0\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                }
+            ],
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:19px; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">设计函数求一元多项式的导数。（注：xn（n为整数）的一阶导数为nxn−1。）</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输入格式\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">入格式:</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">以指数递降方式输入多项式非零项系数和指数（绝对值均为不超过 1000 的整数）。数字间以空格分隔。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输出格式\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">出格式:</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">以与输入相同的格式输出导数多项式非零项的系数和指数。数字间以空格分隔，但结尾不能有多余空格。注意“零多项式”的指数和系数都是 0，但是表示为 <span style=\" font-family:'Courier New';\">0 0</span>。</p></body></html>",
+            "name": "1010",
+            "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805313708867584"
+        },
+        {
+            "answer_program": "E:/Projects/Dev-C++/PTA/1011.cpp",
+            "cases": [
+                {
+                    "expected": "Case #1: false\nCase #2: true\nCase #3: true\nCase #4: false\n",
+                    "expected_output_filename": "",
+                    "input": "4\n1 2 3\n2 3 4\n2147483647 0 2147483646\n0 -2147483648 -2147483647\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                }
+            ],
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:19px; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">给定区间 [−231,231] 内的 3 个整数 A、B 和 C，请判断 A+B 是否大于 C。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输入格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">入格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">输入第 1 行给出正整数 T (≤10)，是测试用例的个数。随后给出 T 组测试用例，每组占一行，顺序给出 A、B 和 C。整数间以空格分隔。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输出格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">出格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">对每组测试用例，在一行中输出 <span style=\" font-family:'Courier New';\">Case #X: true</span> 如果 A+B&gt;C，否则输出 <span style=\" font-family:'Courier New';\">Case #X: false</span>，其中 <span style=\" font-family:'Courier New';\">X</span> 是测试用例的编号（从 1 开始）。</p></body></html>",
+            "name": "1011",
+            "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805312417021952"
+        },
+        {
+            "answer_program": "E:/Projects/Dev-C++/PTA/1012.cpp",
+            "cases": [
+                {
+                    "expected": "30 11 2 9.7 9\n",
+                    "expected_output_filename": "",
+                    "input": "13 1 2 3 4 5 6 7 8 9 10 20 16 18\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                },
+                {
+                    "expected": "N 11 2 N 9\n",
+                    "expected_output_filename": "",
+                    "input": "8 1 2 4 5 6 7 9 16\n",
+                    "input_filename": "",
+                    "name": "试题案例2"
+                }
+            ],
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:19px; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">给定一系列正整数，请按要求对数字进行分类，并输出以下 5 个数字：</p>\n<ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">A1​ = 能被 5 整除的数字中所有偶数的和；</li>\n<li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">A2​ = 将被 5 除后余 1 的数字按给出顺序进行交错求和，即计算 n1​−n2​+n3​−n4​⋯；</li>\n<li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">A3​ = 被 5 除后余 2 的数字的个数；</li>\n<li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">A4​ = 被 5 除后余 3 的数字的平均数，精确到小数点后 1 位；</li>\n<li style=\" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">A5​ = 被 5 除后余 4 的数字中最大数字。</li></ul>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输入格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">入格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">每个输入包含 1 个测试用例。每个测试用例先给出一个不超过 1000 的正整数 N，随后给出 N 个不超过 1000 的待分类的正整数。数字间以空格分隔。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输出格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">出格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">对给定的 N 个正整数，按题目要求计算 A1​~A5​ 并在一行中顺序输出。数字间以空格分隔，但行末不得有多余空格。</p>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">若分类之后某一类不存在数字，则在相应位置输出 <span style=\" font-family:'Courier New';\">N</span>。</p></body></html>",
+            "name": "1012",
+            "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805311146147840"
+        },
+        {
+            "answer_program": "E:/Projects/Dev-C++/PTA/1013.cpp",
+            "cases": [
+                {
+                    "expected": "11 13 17 19 23 29 31 37 41 43\n47 53 59 61 67 71 73 79 83 89\n97 101 103\n",
+                    "expected_output_filename": "",
+                    "input": "5 27\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                }
+            ],
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:19px; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">令 Pi​ 表示第 i 个素数。现任给两个正整数 M≤N≤104，请输出 PM​ 到 PN​ 的所有素数。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输入格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">入格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">输入在一行中给出 M 和 N，其间以空格分隔。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输出格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">出格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">输出从 PM​ 到 PN​ 的所有素数，每 10 个数字占 1 行，其间以空格分隔，但行末不得有多余空格。</p></body></html>",
+            "name": "1013",
+            "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805309963354112"
+        },
+        {
             "answer_program": "E:/Projects/Dev-C++/PTA/1014.cpp",
             "cases": [
                 {
@@ -15,6 +222,21 @@
             "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:19px; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">大侦探福尔摩斯接到一张奇怪的字条：</p>\n<pre style=\" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Courier New';\">我们约会吧！ </span></pre>\n<pre style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Courier New';\">3485djDkxh4hhGE </span></pre>\n<pre style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Courier New';\">2984akDfkkkkggEdsb </span></pre>\n<pre style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Courier New';\">s&amp;hgsfdk </span></pre>\n<pre style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Courier New';\">d&amp;Hyscvnm</span></pre>\n<pre style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Courier New';\"><br /></pre>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">大侦探很快就明白了，字条上奇怪的乱码实际上就是约会的时间<span style=\" font-family:'Courier New';\">星期四 14:04</span>，因为前面两字符串中第 1 对相同的大写英文字母（大小写有区分）是第 4 个字母 <span style=\" font-family:'Courier New';\">D</span>，代表星期四；第 2 对相同的字符是 <span style=\" font-family:'Courier New';\">E</span> ，那是第 5 个英文字母，代表一天里的第 14 个钟头（于是一天的 0 点到 23 点由数字 0 到 9、以及大写字母 <span style=\" font-family:'Courier New';\">A</span> 到 <span style=\" font-family:'Courier New';\">N</span> 表示）；后面两字符串第 1 对相同的英文字母 <span style=\" font-family:'Courier New';\">s</span> 出现在第 4 个位置（从 0 开始计数）上，代表第 4 分钟。现给定两对字符串，请帮助福尔摩斯解码得到约会的时间。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输入格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">入格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">输入在 4 行中分别给出 4 个非空、不包含空格、且长度不超过 60 的字符串。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输出格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">出格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">在一行中输出约会的时间，格式为 <span style=\" font-family:'Courier New';\">DAY HH:MM</span>，其中 <span style=\" font-family:'Courier New';\">DAY</span> 是某星期的 3 字符缩写，即 <span style=\" font-family:'Courier New';\">MON</span> 表示星期一，<span style=\" font-family:'Courier New';\">TUE</span> 表示星期二，<span style=\" font-family:'Courier New';\">WED</span> 表示星期三，<span style=\" font-family:'Courier New';\">THU</span> 表示星期四，<span style=\" font-family:'Courier New';\">FRI</span> 表示星期五，<span style=\" font-family:'Courier New';\">SAT</span> 表示星期六，<span style=\" font-family:'Courier New';\">SUN</span> 表示星期日。题目输入保证每个测试存在唯一解。</p></body></html>",
             "name": "1014",
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805308755394560"
+        },
+        {
+            "answer_program": "E:/Projects/Dev-C++/PTA/1015.cpp",
+            "cases": [
+                {
+                    "expected": "12\n10000013 90 99\n10000012 80 100\n10000003 85 80\n10000011 85 80\n10000004 80 85\n10000007 90 78\n10000006 83 76\n10000005 82 77\n10000002 90 60\n10000014 66 60\n10000008 75 79\n10000001 64 90\n",
+                    "expected_output_filename": "",
+                    "input": "14 60 80\n10000001 64 90\n10000002 90 60\n10000011 85 80\n10000003 85 80\n10000004 80 85\n10000005 82 77\n10000006 83 76\n10000007 90 78\n10000008 75 79\n10000009 59 90\n10000010 88 45\n10000012 80 100\n10000013 90 99\n10000014 66 60\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                }
+            ],
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:19px; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">宋代史学家司马光在《资治通鉴》中有一段著名的“德才论”：“是故才德全尽谓之圣人，才德兼亡谓之愚人，德胜才谓之君子，才胜德谓之小人。凡取人之术，苟不得圣人，君子而与之，与其得小人，不若得愚人。”</p>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">现给出一批考生的德才分数，请根据司马光的理论给出录取排名。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输入格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">入格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">输入第一行给出 3 个正整数，分别为：N（≤105），即考生总数；L（≥60），为录取最低分数线，即德分和才分均不低于 L 的考生才有资格被考虑录取；H（&lt;100），为优先录取线——德分和才分均不低于此线的被定义为“才德全尽”，此类考生按德才总分从高到低排序；才分不到但德分到优先录取线的一类考生属于“德胜才”，也按总分排序，但排在第一类考生之后；德才分均低于 H，但是德分不低于才分的考生属于“才德兼亡”但尚有“德胜才”者，按总分排序，但排在第二类考生之后；其他达到最低线 L 的考生也按总分排序，但排在第三类考生之后。</p>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">随后 N 行，每行给出一位考生的信息，包括：<span style=\" font-family:'Courier New';\">准考证号 德分 才分</span>，其中<span style=\" font-family:'Courier New';\">准考证号</span>为 8 位整数，德才分为区间 [0, 100] 内的整数。数字间以空格分隔。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输出格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">出格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">输出第一行首先给出达到最低分数线的考生人数 M，随后 M 行，每行按照输入格式输出一位考生的信息，考生按输入中说明的规则从高到低排序。当某类考生中有多人总分相同时，按其德分降序排列；若德分也并列，则按准考证号的升序输出。</p></body></html>",
+            "name": "1015",
+            "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805307551629312"
         },
         {
             "answer_program": "E:/Projects/Dev-C++/PTA/1016.cpp",
@@ -134,6 +356,20 @@
             "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:19px; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">输入两个非负 10 进制整数 A 和 B (≤230−1)，输出 A+B 的 D (1&lt;D≤10)进制数。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输入格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">入格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">输入在一行中依次给出 3 个整数 A、B 和 D。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输出格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">出格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">输出 A+B 的 D 进制数。</p></body></html>",
             "name": "1022",
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805299301433344"
+        },
+        {
+            "cases": [
+                {
+                    "expected": "10015558\n",
+                    "expected_output_filename": "",
+                    "input": "2 2 0 0 0 3 0 0 1 0\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                }
+            ],
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:19px; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">给定数字 0-9 各若干个。你可以以任意顺序排列这些数字，但必须全部使用。目标是使得最后得到的数尽可能小（注意 0 不能做首位）。例如：给定两个 0，两个 1，三个 5，一个 8，我们得到的最小的数就是 10015558。</p>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">现给定数字，请编写程序输出能够组成的最小的数。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输入格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">入格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">输入在一行中给出 10 个非负整数，顺序表示我们拥有数字 0、数字 1、……数字 9 的个数。整数间用一个空格分隔。10 个数字的总个数不超过 50，且至少拥有 1 个非 0 的数字。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输出格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">出格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">在一行中输出能够组成的最小的数。</p></body></html>",
+            "name": "1023",
+            "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805298269634560"
         }
     ]
 }
