@@ -19,14 +19,13 @@
 // @Date:2022/6/27
 
 #include <iostream>
-#include <string>
 
 using namespace std;
 
 int main()
 {
 	int N, cnt = -1;
-	string sym;
+	char sym;
 	cin >> N >> sym;
 	for (int i = 0; i < N; i++)
 	{
