@@ -13,8 +13,7 @@
 // @Date:2022/6/28
 
 #include <iostream>
-#include <algorithm>
-#include <vector>
+#include <string>
 
 using namespace std;
 
@@ -24,33 +23,40 @@ struct people
 	string birthday;
 };
 
-int cmp(people a, people b)
-{
-	return a.birthday < b.birthday;
-}
-
 int main()
 {
 	int N;
 	cin >> N;
 	int cnt = 0;
-	vector<people> MaxMin;
-	const string MaxBirthday = "1814/09/06";
-	const string MinBirthday = "2014/09/06";
+
+	string MaxName(""), MinName("");
+	string MaxBirthday = "1814/09/06";
+	string MinBirthday = "2014/09/06";
 	for (int i = 0; i < N; i++)
 	{
 		people person;
 		cin >> person.name >> person.birthday;
-		if (person.birthday >= MaxBirthday && person.birthday <= MinBirthday)
+		if (person.birthday >= "1814/09/06" && person.birthday <= "2014/09/06")
 		{
 			cnt++;
-			MaxMin.push_back(person);
+			if (person.birthday >= MaxBirthday)
+			{
+				MaxBirthday = person.birthday;
+				MaxName = person.name;
+			}
+			if (person.birthday <= MinBirthday)
+			{
+				MinBirthday = person.birthday;
+				MinName = person.name;
+			}
 		}
 	}
 
-	sort(MaxMin.begin(), MaxMin.end(), cmp);
-
-	cout << cnt << " " << MaxMin[0].name << " " << MaxMin.back().name << endl;
+	cout << cnt;
+	if (cnt != 0)
+	{
+		cout << " " << MinName << " " << MaxName << endl;
+	}
 
 	return 0;
 }
