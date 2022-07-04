@@ -1,46 +1,26 @@
-#include <iostream>
-#include <algorithm>
-#include <vector>
+#include<iostream>
 
 using namespace std;
 
-struct people
-{
-	int id;
-	int score;
-};
-
-int main()
-{
-	vector<people> person;
+int main() {
 	int n;
 	cin >> n;
-	for (int i = 0; i < n; i++)
-	{
-		people p;
-		cin >> p.id >> p.score;
-		person.push_back(p);
+	int id, score;
+	int s[100001] = {0};
+	for (int i = 0; i < n; i++) {
+		cin >> id >> score;
+		s[id] += score;
 	}
 
-	int score[100000] = {0};
-	while (!person.empty())
-	{
-		score[person.back().id] += person.back().score;
-		person.pop_back();
-	}
-
-	int index = 0;
-	int m = 0;
-	for (int i = 0; i < 100000; i++)
-	{
-		if (score[i] > m)
-		{
-			m = score[i];
+	int index = 1;
+	int m = s[1];
+	for (int i = 2; i <= n; i++) {
+		if (s[i] > m) {
+			m = s[i];
 			index = i;
 		}
 	}
 
-	cout << index << " " << m << endl;
-
+	cout << index << " " << m;
 	return 0;
 }
