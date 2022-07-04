@@ -22,7 +22,7 @@ int main()
 		person.push_back(p);
 	}
 
-	int score[10] = {0};
+	int score[100000] = {0};
 	while (!person.empty())
 	{
 		score[person.back().id] += person.back().score;
@@ -31,7 +31,7 @@ int main()
 
 	int index = 0;
 	int m = 0;
-	for (int i = 0; i < 10; i++)
+	for (int i = 0; i < 100000; i++)
 	{
 		if (score[i] > m)
 		{
