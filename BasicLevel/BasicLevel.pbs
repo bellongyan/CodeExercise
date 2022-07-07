@@ -547,9 +547,9 @@
                     "name": "试题案例2"
                 }
             ],
-            "description": "",
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:19px; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">本题要求编写程序，计算 2 个有理数的和、差、积、商。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输入格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">入格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">输入在一行中按照 <span style=\" font-family:'Courier New';\">a1/b1 a2/b2</span> 的格式给出两个分数形式的有理数，其中分子和分母全是整型范围内的整数，负号只可能出现在分子前，分母不为 0。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输出格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">出格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">分别在 4 行中按照 <span style=\" font-family:'Courier New';\">有理数1 运算符 有理数2 = 结果</span> 的格式顺序输出 2 个有理数的和、差、积、商。注意输出的每个有理数必须是该有理数的最简形式 <span style=\" font-family:'Courier New';\">k a/b</span>，其中 <span style=\" font-family:'Courier New';\">k</span> 是整数部分，<span style=\" font-family:'Courier New';\">a/b</span> 是最简分数部分；若为负数，则须加括号；若除法分母为 0，则输出 <span style=\" font-family:'Courier New';\">Inf</span>。题目保证正确的输出中没有超过整型范围的整数。</p></body></html>",
             "name": "1034",
-            "url": ""
+            "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805287624491008"
         }
     ]
 }
