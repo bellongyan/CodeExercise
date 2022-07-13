@@ -15,14 +15,56 @@
 */
 
 // @Author:longyan
-// @Date:2022/7/7
+// @Date:2022/7/13
 
 #include <iostream>
+#include <algorithm>
 
 using namespace std;
 
-int main()
-{
+int main() {
+	int n, a[100], b[100], i, j;
 
+	// 数据输入
+	// 原始数列的个数
+	cin >> n;
+	// 原始数列
+	for (int i = 0; i < n; i++)
+		cin >> a[i];
+	// 中间序列
+	for (int i = 0; i < n; i++)
+		cin >> b[i];
+
+	// 记录中间序列的正确顺序的最后一个位置
+	for (i = 0; i < n - 1 && b[i] <= b[i + 1]; i++);
+	for (j = i + 1; a[j] == b[j] && j < n; j++);
+
+	// 插入排序
+	if (j == n) {
+		cout << "Insertion Sort" << endl;
+		sort(a, a + i + 2);
+	}
+	// 归并排序
+	else {
+		cout << "Merge Sort" << endl;
+		int k = 1, flag = 1;
+		while (flag) {
+			flag = 0;
+			for (i = 0; i < n; i++) {
+				if (a[i] != b[i])
+					flag = 1;
+			}
+			k = k * 2;
+			for (i = 0; i < n / k; i++)
+				sort(a + i * k, a + (i + 1) * k);
+			sort(a + n / k * k, a + n);
+		}
+	}
+
+	// 输出排序后的结果
+	for (j = 0; j < n; j++) {
+		if (j != 0) printf(" ");
+		cout << a[j];
+	}
 	return 0;
 }
