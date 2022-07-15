@@ -11,32 +11,37 @@
 // @Author:longyan
 // @Date:2022/7/15
 
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 
-int main() {
+int main()
+{
 	int pg, ps, pk, ag, as, ak;
 	scanf("%d.%d.%d %d.%d.%d", &pg, &ps, &pk, &ag, &as, &ak);
-	int psum = 0, asum = 0 ;
+	int psum = 0, asum = 0;
 	psum = pk + 29 * (ps + 17 * pg);
 	asum = ak + 29 * (as + 17 * ag);
-	if (psum > asum) {
+	if (psum > asum)
+	{
 		cout << "-";
 		int tg = pg, ts = ps, tk = pk;
 		pg = ag, ps = as, pk = ak;
 		ag = tg, as = ts, ak = tk;
 	}
 	int sg = ag - pg, ss = as - ps, sk = ak - pk;
-	if (sk < 0) {
+	if (sk < 0)
+	{
 		ss--;
 		sk += 29;
 	}
-	if (ss < 0) {
+	if (ss < 0)
+	{
 		sg--;
 		ss += 17;
 	}
-	if (sg < 0)sg = (-1) * sg;
+	if (sg < 0)
+		sg = (-1) * sg;
 
 	cout << sg << "." << ss << "." << sk << endl;
 
