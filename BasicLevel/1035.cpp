@@ -22,7 +22,8 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
 	int n, a[100], b[100], i, j;
 
 	// 数据输入
@@ -36,21 +37,27 @@ int main() {
 		cin >> b[i];
 
 	// 记录中间序列的正确顺序的最后一个位置
-	for (i = 0; i < n - 1 && b[i] <= b[i + 1]; i++);
-	for (j = i + 1; a[j] == b[j] && j < n; j++);
+	for (i = 0; i < n - 1 && b[i] <= b[i + 1]; i++)
+		;
+	for (j = i + 1; a[j] == b[j] && j < n; j++)
+		;
 
 	// 插入排序
-	if (j == n) {
+	if (j == n)
+	{
 		cout << "Insertion Sort" << endl;
 		sort(a, a + i + 2);
 	}
 	// 归并排序
-	else {
+	else
+	{
 		cout << "Merge Sort" << endl;
 		int k = 1, flag = 1;
-		while (flag) {
+		while (flag)
+		{
 			flag = 0;
-			for (i = 0; i < n; i++) {
+			for (i = 0; i < n; i++)
+			{
 				if (a[i] != b[i])
 					flag = 1;
 			}
@@ -62,8 +69,10 @@ int main() {
 	}
 
 	// 输出排序后的结果
-	for (j = 0; j < n; j++) {
-		if (j != 0) printf(" ");
+	for (j = 0; j < n; j++)
+	{
+		if (j != 0)
+			printf(" ");
 		cout << a[j];
 	}
 	return 0;
