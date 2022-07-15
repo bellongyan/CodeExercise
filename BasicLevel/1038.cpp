@@ -17,30 +17,24 @@ using namespace std;
 
 int main()
 {
-	const int Maxn = 100000;
+	const int Maxn = 101;
 	int n;
 	cin >> n;
-	int score[Maxn];
+	int score[Maxn] = {0};
 	for (int i = 0; i < n; i++)
-		cin >> score[i];
+	{
+		int s;
+		cin >> s;
+		score[s]++;
+	}
 
 	int k;
 	cin >> k;
-	int exam[Maxn];
-	int cnt[Maxn];
 	for (int i = 0; i < k; i++)
 	{
-		cin >> exam[i];
-		for (int j = 0; j < n; j++)
-		{
-			if (score[j] == exam[i])
-				cnt[i]++;
-		}
-	}
-
-	for (int i = 0; i < k; i++)
-	{
-		cout << cnt[i];
+		int s;
+		cin >> s;
+		cout << score[s];
 		if (i != k - 1)
 			cout << " ";
 		else
