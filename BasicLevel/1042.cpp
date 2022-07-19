@@ -18,7 +18,7 @@ using namespace std;
 
 int main()
 {
-	int alpha[122] = {0};
+	int alpha[200] = {0};
 	string s;
 	getline(cin, s);
 
@@ -30,7 +30,7 @@ int main()
 	}
 
 	int m = 0, index = 0;
-	for (int i = 96; i < 121; i++)
+	for (int i = 96; i < 123; i++)
 	{
 		if (alpha[i] > m)
 		{
