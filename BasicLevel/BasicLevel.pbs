@@ -794,6 +794,378 @@
             "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:19px; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">给定一个正数数列，我们可以从中截取任意的连续的几个数，称为片段。例如，给定数列 { 0.1, 0.2, 0.3, 0.4 }，我们有 (0.1) (0.1, 0.2) (0.1, 0.2, 0.3) (0.1, 0.2, 0.3, 0.4) (0.2) (0.2, 0.3) (0.2, 0.3, 0.4) (0.3) (0.3, 0.4) (0.4) 这 10 个片段。</p>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">给定正整数数列，求出全部片段包含的所有的数之和。如本例中 10 个片段总和是 0.1 + 0.3 + 0.6 + 1.0 + 0.2 + 0.5 + 0.9 + 0.3 + 0.7 + 0.4 = 5.0。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输入格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">入格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">输入第一行给出一个不超过 105 的正整数 N，表示数列中数的个数，第二行给出 N 个不超过 1.0 的正数，是数列中的数，其间以一个空格分隔。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输出格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">出格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">在一行中输出该序列所有片段包含的数之和，精确到小数点后 2 位。</p></body></html>",
             "name": "1049",
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805275792359424"
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "1050",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "1051",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "1052",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "1053",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "1054",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "1055",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "1056",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "1057",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "1058",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "1059",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "1060",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "1061",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "1062",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "1063",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "1064",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "试题65",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "试题66",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "试题67",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "试题68",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "试题69",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "试题70",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "试题71",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "试题72",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "试题73",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "试题74",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "试题75",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "试题76",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "试题77",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "试题78",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "试题79",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "试题80",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "试题81",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "试题82",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "试题83",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "试题84",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "试题85",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "试题86",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "试题87",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "试题88",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "试题89",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "试题90",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "试题91",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "试题92",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "试题93",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "试题94",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "试题95",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "试题96",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "试题97",
+            "url": ""
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "试题98",
+            "url": ""
+        },
+        {
+            "answer_program": "E:/Projects/Dev-C++/PTA/1099.cpp",
+            "cases": [
+                {
+                    "expected": "Yes\n41\n",
+                    "expected_output_filename": "",
+                    "input": "47",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                },
+                {
+                    "expected": "No\n23\n",
+                    "expected_output_filename": "",
+                    "input": "21\n",
+                    "input_filename": "",
+                    "name": "试题案例2"
+                }
+            ],
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:19px; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">“性感素数”是指形如 (p, p+6) 这样的一对素数。之所以叫这个名字，是因为拉丁语管“六”叫“sex”（即英语的“性感”）。（原文摘自 http://mathworld.wolfram.com/SexyPrimes.html）</p>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">现给定一个整数，请你判断其是否为一个性感素数。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输入格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">入格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">输入在一行中给出一个正整数 N (≤108)。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输出格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">出格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">若 N 是一个性感素数，则在一行中输出 <span style=\" font-family:'Courier New';\">Yes</span>，并在第二行输出与 N 配对的另一个性感素数（若这样的数不唯一，输出较小的那个）。若 N 不是性感素数，则在一行中输出 <span style=\" font-family:'Courier New';\">No</span>，然后在第二行输出大于 N 的最小性感素数。</p></body></html>",
+            "name": "1099",
+            "url": "https://pintia.cn/problem-sets/994805260223102976/problems/1478633879405998080"
+        },
+        {
+            "cases": [
+            ],
+            "description": "",
+            "name": "试题100",
+            "url": ""
         }
     ]
 }
