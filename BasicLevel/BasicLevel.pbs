@@ -826,11 +826,19 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805274496319488"
         },
         {
+            "answer_program": "E:/Projects/Dev-C++/PTA/1052.cpp",
             "cases": [
+                {
+                    "expected": "╮(╯▽╰)╭\n<(@Д=)/~\no(^ε^)o\nAre you kidding me? @\\/@\n",
+                    "expected_output_filename": "",
+                    "input": "[╮][╭][o][~\\][/~]  [<][>]\n [╯][╰][^][-][=][>][<][@][⊙]\n[Д][▽][_][ε][^]  ...\n4\n1 1 2 2 2\n6 8 1 5 5\n3 3 4 3 3\n2 10 3 9 3\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                }
             ],
-            "description": "",
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:19px; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">萌萌哒表情符号通常由“手”、“眼”、“口”三个主要部分组成。简单起见，我们假设一个表情符号是按下列格式输出的：</p>\n<pre style=\" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Courier New';\">[左手]([左眼][口][右眼])[右手]</span></pre>\n<pre style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Courier New';\"><br /></pre>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">现给出可选用的符号集合，请你按用户的要求输出表情。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输入格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">入格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">输入首先在前三行顺序对应给出手、眼、口的可选符号集。每个符号括在一对方括号 <span style=\" font-family:'Courier New';\">[]</span>内。题目保证每个集合都至少有一个符号，并不超过 10 个符号；每个符号包含 1 到 4 个非空字符。</p>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">之后一行给出一个正整数 K，为用户请求的个数。随后 K 行，每行给出一个用户的符号选择，顺序为左手、左眼、口、右眼、右手——这里只给出符号在相应集合中的序号（从 1 开始），数字间以空格分隔。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输出格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">出格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">对每个用户请求，在一行中输出生成的表情。若用户选择的序号不存在，则输出 <span style=\" font-family:'Courier New';\">Are you kidding me? @\\/@</span>。</p></body></html>",
             "name": "1052",
-            "url": ""
+            "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805273883951104"
         },
         {
             "cases": [
