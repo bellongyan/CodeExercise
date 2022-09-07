@@ -17,31 +17,24 @@ figbuy.jpg
 // @Author:longyan
 // @Date:2022/7/16
 
-#include <iostream>
+#include<iostream>
 
 using namespace std;
 
 int word[256];
-int main()
-{
+int main() {
 	string p, b;
 	cin >> p >> b;
 
-	for (auto i : p)
-		word[i]++;
+	for (auto i : p) word[i]++;
 	int result = 0;
-	for (auto i : b)
-	{
-		if (word[i] > 0)
-			word[i]--;
-		else
-			result++;
+	for (auto i : b) {
+		if (word[i] > 0)word[i]--;
+		else result++;
 	}
 
-	if (result != 0)
-		cout << "No " << result << endl;
-	else
-		cout << "Yes " << p.length() - b.length() << endl;
+	if (result != 0) cout << "No " << result << endl;
+	else cout << "Yes " << p.length() - b.length() << endl;
 
 	return 0;
 }
