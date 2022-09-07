@@ -13,25 +13,21 @@
 // @Author:longyan
 // @Date:2022/7/4
 
-#include <iostream>
-#include <cctype>
-#include <string>
+#include<iostream>
+#include<cctype>
+#include<string>
 
 using namespace std;
 
-int main()
-{
+int main() {
 	string broken("");
 	string input("");
 	getline(cin, broken);
 	getline(cin, input);
 
-	for (int i = 0; i < input.length(); i++)
-	{
-		if (broken.find(toupper(input[i])) != string::npos)
-			continue;
-		if (isupper(input[i]) && broken.find('+') != string::npos)
-			continue;
+	for (int i = 0; i < input.length(); i++) {
+		if (broken.find(toupper(input[i])) != string::npos) continue;
+		if (isupper(input[i]) && broken.find('+') != string::npos) continue;
 		cout << input[i];
 	}
 
