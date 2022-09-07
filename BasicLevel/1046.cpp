@@ -42,7 +42,7 @@ int main()
 		else if (number[3] == number[0] + number[2])
 			cupA++;
 	}
-
+	
 	cout << cupA << " " << cupB << endl;
 	return 0;
 }
