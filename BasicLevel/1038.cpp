@@ -11,18 +11,16 @@
 // @Author:longyan
 // @Date:2022/7/15
 
-#include <iostream>
+#include<iostream>
 
 using namespace std;
 
-int main()
-{
+int main() {
 	const int Maxn = 101;
 	int n;
 	cin >> n;
 	int score[Maxn] = {0};
-	for (int i = 0; i < n; i++)
-	{
+	for (int i = 0; i < n; i++) {
 		int s;
 		cin >> s;
 		score[s]++;
@@ -30,15 +28,12 @@ int main()
 
 	int k;
 	cin >> k;
-	for (int i = 0; i < k; i++)
-	{
+	for (int i = 0; i < k; i++) {
 		int s;
 		cin >> s;
 		cout << score[s];
-		if (i != k - 1)
-			cout << " ";
-		else
-			cout << endl;
+		if (i != k - 1) cout << " ";
+		else cout << endl;
 	}
 
 	return 0;
