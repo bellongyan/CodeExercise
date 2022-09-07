@@ -841,18 +841,41 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805273883951104"
         },
         {
+            "answer_program": "E:/Projects/Dev-C++/PTA/1053.cpp",
             "cases": [
+                {
+                    "expected": "40.0% 20.0%\n",
+                    "expected_output_filename": "",
+                    "input": "5 0.5 10\n6 0.3 0.4 0.5 0.2 0.8 0.6\n10 0.0 0.1 0.2 0.3 0.0 0.8 0.6 0.7 0.0 0.5\n5 0.4 0.3 0.5 0.1 0.7\n11 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1\n11 2 2 2 1 1 0.1 1 0.1 0.1 0.1 0.1\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                }
             ],
-            "description": "",
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:19px; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">在不打扰居民的前提下，统计住房空置率的一种方法是根据每户用电量的连续变化规律进行判断。判断方法如下：</p>\n<ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">在观察期内，若存在超过一半的日子用电量低于某给定的阈值 e，则该住房为“可能空置”；</li>\n<li style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">若观察期超过某给定阈值 D 天，且满足上一个条件，则该住房为“空置”。</li></ul>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">现给定某居民区的住户用电量数据，请你统计“可能空置”的比率和“空置”比率，即以上两种状态的住房占居民区住房总套数的百分比。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输入格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">入格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">输入第一行给出正整数 N（≤1000），为居民区住房总套数；正实数 e，即低电量阈值；正整数 D，即观察期阈值。随后 N 行，每行按以下格式给出一套住房的用电量数据：</p>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">K E1​ E2​ ... EK​</p>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">其中 K 为观察的天数，Ei​ 为第 i 天的用电量。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输出格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">出格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">在一行中输出“可能空置”的比率和“空置”比率的百分比值，其间以一个空格分隔，保留小数点后 1 位。</p></body></html>",
             "name": "1053",
-            "url": ""
+            "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805273284165632"
         },
         {
+            "answer_program": "E:/Projects/Dev-C++/PTA/1054.cpp",
             "cases": [
+                {
+                    "expected": "ERROR: aaa is not a legal number\nERROR: 9999 is not a legal number\nERROR: 2.3.4 is not a legal number\nERROR: 7.123 is not a legal number\nThe average of 3 numbers is 1.38\n",
+                    "expected_output_filename": "",
+                    "input": "7\n5 -3.2 aaa 9999 2.3.4 7.123 2.35\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                },
+                {
+                    "expected": "",
+                    "expected_output_filename": "",
+                    "input": "",
+                    "input_filename": "",
+                    "name": "试题案例2"
+                }
             ],
-            "description": "",
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:19px; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">本题的基本要求非常简单：给定 N 个实数，计算它们的平均值。但复杂的是有些输入数据可能是非法的。一个“合法”的输入是 [−1000,1000] 区间内的实数，并且最多精确到小数点后 2 位。当你计算平均值的时候，不能把那些非法的数据算在内。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输入格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">入格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">输入第一行给出正整数 N（≤100）。随后一行给出 N 个实数，数字间以一个空格分隔。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输出格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">出格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">对每个非法输入，在一行中输出 <span style=\" font-family:'Courier New';\">ERROR: X is not a legal number</span>，其中 <span style=\" font-family:'Courier New';\">X</span> 是输入。最后在一行中输出结果：<span style=\" font-family:'Courier New';\">The average of K numbers is Y</span>，其中 <span style=\" font-family:'Courier New';\">K</span> 是合法输入的个数，<span style=\" font-family:'Courier New';\">Y</span> 是它们的平均值，精确到小数点后 2 位。如果平均值无法计算，则用 <span style=\" font-family:'Courier New';\">Undefined</span> 替换 <span style=\" font-family:'Courier New';\">Y</span>。如果 <span style=\" font-family:'Courier New';\">K</span> 为 1，则输出 <span style=\" font-family:'Courier New';\">The average of 1 number is Y</span>。</p></body></html>",
             "name": "1054",
-            "url": ""
+            "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805272659214336"
         },
         {
             "cases": [
