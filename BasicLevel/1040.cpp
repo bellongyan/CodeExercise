@@ -13,43 +13,31 @@
 // @Author:longyan
 // @Date:2022/7/16
 
-#include <iostream>
+#include<iostream>
 
 using namespace std;
 
 const int r = 1000000007;
-int main()
-{
+int main() {
 	const int Maxn = 10000;
 	int p[Maxn] = {0}, a[Maxn] = {0}, t[Maxn] = {0};
 	string pat;
 	cin >> pat;
-	for (int i = 0; i < pat.length(); i++)
-	{
-		if (pat[i] == 'P')
-			p[i]++;
-		if (pat[i] == 'A')
-			a[i]++;
-		if (pat[i] == 'T')
-			t[i]++;
+	for (int i = 0; i < pat.length(); i++) {
+		if (pat[i] == 'P') p[i]++;
+		if (pat[i] == 'A') a[i]++;
+		if (pat[i] == 'T') t[i]++;
 	}
 
 	int result = 0;
 
-	for (int i = 0; i < pat.length(); i++)
-	{
-		if (p[i] == 0)
-			continue;
-		for (int j = i + 1; j < pat.length(); j++)
-		{
-			if (a[j] == 0)
-				continue;
-			for (int k = j + 1; k < pat.length(); k++)
-			{
-				if (t[k] == 0)
-					continue;
-				if (i < j && i < k && j < k)
-					result++;
+	for (int i = 0; i < pat.length(); i++) {
+		if (p[i] == 0) continue;
+		for (int j = i + 1; j < pat.length(); j++) {
+			if (a[j] == 0) continue;
+			for (int k = j + 1; k < pat.length(); k++) {
+				if (t[k] == 0) continue;
+				if (i < j && i < k && j < k) result++;
 			}
 		}
 	}
