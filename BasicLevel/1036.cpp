@@ -11,30 +11,25 @@
 // @Author:longyan
 // @Date:2022/7/15
 
-#include <iostream>
+#include<iostream>
 
 using namespace std;
 
-int main()
-{
+int main() {
 	char c;
 	int n;
 	cin >> n >> c;
 
 	int l = n / 2 + n % 2;
 
-	for (int i = 0; i < n; i++)
-		cout << c;
+	for (int i = 0; i < n; i++) cout << c;
 	cout << endl;
-	for (int i = 0; i < l - 2; i++)
-	{
+	for (int i = 0; i < l - 2; i++) {
 		cout << c;
-		for (int j = 0; j < n - 2; j++)
-			cout << " ";
+		for (int j = 0; j < n - 2; j++)cout << " ";
 		cout << c << endl;
 	}
-	for (int i = 0; i < n; i++)
-		cout << c;
+	for (int i = 0; i < n; i++) cout << c;
 	cout << endl;
 
 	return 0;
