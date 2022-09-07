@@ -13,25 +13,22 @@
 // @Author:longyan
 // @Date:2022/7/18
 
-#include <iostream>
-#include <vector>
+#include<iostream>
+#include<vector>
 
 using namespace std;
 
-struct info
-{
+struct info {
 	string id;
 	int cSeat;
 	int tSeat;
 };
 
-int main()
-{
+int main() {
 	int n;
 	cin >> n;
-	vector<info> stu;
-	for (int i = 0; i < n; i++)
-	{
+	vector<info>stu;
+	for (int i = 0; i < n; i++) {
 		info s;
 		cin >> s.id >> s.cSeat >> s.tSeat;
 		stu.push_back(s);
@@ -40,13 +37,10 @@ int main()
 	int m;
 	int search[1001] = {0};
 	cin >> m;
-	for (int i = 0; i < m; i++)
-	{
+	for (int i = 0 ; i < m ; i++) {
 		cin >> search[i];
-		for (auto j : stu)
-		{
-			if (search[i] == j.cSeat)
-			{
+		for (auto j : stu) {
+			if (search[i] == j.cSeat) {
 				cout << j.id << " " << j.tSeat << endl;
 			}
 		}
