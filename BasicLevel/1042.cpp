@@ -11,29 +11,24 @@
 // @Author:longyan
 // @Date:2022/7/18
 
-#include <iostream>
-#include <cctype>
+#include<iostream>
+#include<cctype>
 
 using namespace std;
 
-int main()
-{
+int main() {
 	int alpha[200] = {0};
 	string s;
 	getline(cin, s);
 
-	for (char i : s)
-	{
-		if (isupper(i))
-			i = tolower(i);
+	for (char i : s) {
+		if (isupper(i)) i = tolower(i);
 		alpha[i]++;
 	}
 
 	int m = 0, index = 0;
-	for (int i = 96; i < 123; i++)
-	{
-		if (alpha[i] > m)
-		{
+	for (int i = 96; i < 123; i++) {
+		if (alpha[i] > m) {
 			m = alpha[i];
 			index = i;
 		}
