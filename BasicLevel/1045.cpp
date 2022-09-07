@@ -3,10 +3,10 @@
 
 例如给定 N=5, 排列是1、3、2、4、5。则：
 
-	1 的左边没有元素，右边的元素都比它大，所以它可能是主元；
-	尽管 3 的左边元素都比它小，但其右边的 2 比它小，所以它不能是主元；
-	尽管 2 的右边元素都比它大，但其左边的 3 比它大，所以它不能是主元；
-	类似原因，4 和 5 都可能是主元。
+    1 的左边没有元素，右边的元素都比它大，所以它可能是主元；
+    尽管 3 的左边元素都比它小，但其右边的 2 比它小，所以它不能是主元；
+    尽管 2 的右边元素都比它大，但其左边的 3 比它大，所以它不能是主元；
+    类似原因，4 和 5 都可能是主元。
 
 因此，有 3 个元素可能是主元。
 输入格式：
@@ -20,37 +20,29 @@
 // @Author:longyan
 // @Date:2022/7/20
 
-#include <iostream>
-#include <algorithm>
+#include<iostream>
+#include<algorithm>
 
 using namespace std;
 
-int main()
-{
+int main() {
 	const int Maxn = 100000;
 	int n;
 	cin >> n;
 	int list[Maxn] = {0};
-	for (int i = 0; i < n; i++)
-		cin >> list[i];
+	for (int i = 0; i < n; i++) cin >> list[i];
 
 	int cnt = 0;
 	int mlist[Maxn] = {0};
-	for (int i = 0; i < n; i++)
-	{
+	for (int i = 0; i < n; i++) {
 		int mcnt = 0;
-		for (int j = 0; j < n; j++)
-		{
-			if (i == j)
-				j++;
-			if (i < j && list[i] > list[j])
-				break;
-			if (i > j && list[i] < list[j])
-				break;
+		for (int j = 0; j < n; j++) {
+			if (i == j) j++;
+			if (i < j && list[i] > list[j]) break;
+			if (i > j && list[i] < list[j]) break;
 			mcnt++;
 		}
-		if (mcnt == n - 1)
-		{
+		if (mcnt == n - 1) {
 			cnt++;
 			mlist[i] = list[i];
 		}
@@ -60,16 +52,12 @@ int main()
 
 	cout << cnt << endl;
 	int bcnt = 0;
-	for (int i = 0; i < n; i++)
-	{
-		if (mlist[i] != 0)
-		{
+	for (int i = 0; i < n; i++) {
+		if (mlist[i] != 0) {
 			cout << mlist[i];
 			bcnt++;
-			if (bcnt != cnt)
-				cout << " ";
-			else
-				cout << endl;
+			if (bcnt != cnt) cout << " ";
+			else cout << endl;
 		}
 	}
 
