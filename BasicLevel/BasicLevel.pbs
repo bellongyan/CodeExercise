@@ -878,11 +878,19 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805272659214336"
         },
         {
+            "answer_program": "E:/Projects/Dev-C++/PTA/1055.cpp",
             "cases": [
+                {
+                    "expected": "Bob Tom Joe Nick\nAnn Mike Eva\nTim Amy John\n",
+                    "expected_output_filename": "",
+                    "input": "10 3\nTom 188\nMike 170\nEva 168\nTim 160\nJoe 190\nAnn 168\nBob 175\nNick 186\nAmy 160\nJohn 159\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                }
             ],
-            "description": "",
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:19px; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">拍集体照时队形很重要，这里对给定的 N 个人 K 排的队形设计排队规则如下：</p>\n<ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">每排人数为 N/K（向下取整），多出来的人全部站在最后一排；</li>\n<li style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">后排所有人的个子都不比前排任何人矮；</li>\n<li style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">每排中最高者站中间（中间位置为 m/2+1，其中 m 为该排人数，除法向下取整）；</li>\n<li style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">每排其他人以中间人为轴，按身高非增序，先右后左交替入队站在中间人的两侧（例如5人身高为190、188、186、175、170，则队形为175、188、190、186、170。这里假设你面对拍照者，所以你的左边是中间人的右边）；</li>\n<li style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">若多人身高相同，则按名字的字典序升序排列。这里保证无重名。</li></ul>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">现给定一组拍照人，请编写程序输出他们的队形。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输入格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">入格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">每个输入包含 1 个测试用例。每个测试用例第 1 行给出两个正整数 N（≤104，总人数）和 K（≤10，总排数）。随后 N 行，每行给出一个人的名字（不包含空格、长度不超过 8 个英文字母）和身高（[30, 300] 区间内的整数）。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输出格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">出格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">输出拍照的队形。即K排人名，其间以空格分隔，行末不得有多余空格。注意：假设你面对拍照者，后排的人输出在上方，前排输出在下方。</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>",
             "name": "1055",
-            "url": ""
+            "url": "https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805272021680128"
         },
         {
             "cases": [
