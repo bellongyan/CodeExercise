@@ -28,28 +28,33 @@
 #include <vector>
 using namespace std;
 
-struct node {
+struct node
+{
 	string name;
 	int height;
 };
 
-int cmp(struct node a, struct node b) {
+int cmp(struct node a, struct node b)
+{
 	return a.height != b.height ? a.height > b.height : a.name < b.name;
 }
 
-int main() {
+int main()
+{
 	int n, k, m;
 	cin >> n >> k;
 	vector<node> stu(n);
-	
-	for (int i = 0; i < n; i++) {
+
+	for (int i = 0; i < n; i++)
+	{
 		cin >> stu[i].name >> stu[i].height;
 	}
-	
+
 	sort(stu.begin(), stu.end(), cmp);
-	
+
 	int t = 0, row = k;
-	while (row) {
+	while (row)
+	{
 		if (row == k)
 			m = n - n / k * (k - 1);
 		else
@@ -74,4 +79,3 @@ int main() {
 	}
 	return 0;
 }
-
