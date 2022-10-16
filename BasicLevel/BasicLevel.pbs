@@ -938,11 +938,19 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805270356541440"
         },
         {
+            "answer_program": "E:/Projects/Dev-C++/PTA/1059.cpp",
             "cases": [
+                {
+                    "expected": "8888: Minion\n0001: Chocolate\n1111: Mystery Award\n2222: Are you kidding?\n8888: Checked\n2222: Are you kidding?\n",
+                    "expected_output_filename": "",
+                    "input": "6\n1111\n6666\n8888\n1234\n5555\n0001\n6\n8888\n0001\n1111\n2222\n8888\n2222\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                }
             ],
-            "description": "",
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:19px; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">C 语言竞赛是浙江大学计算机学院主持的一个欢乐的竞赛。既然竞赛主旨是为了好玩，颁奖规则也就制定得很滑稽：</p>\n<ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">0、冠军将赢得一份“神秘大奖”（比如很巨大的一本学生研究论文集……）。</li>\n<li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">1、排名为素数的学生将赢得最好的奖品 —— 小黄人玩偶！</li>\n<li style=\" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">2、其他人将得到巧克力。</li></ul>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">给定比赛的最终排名以及一系列参赛者的 ID，你要给出这些参赛者应该获得的奖品。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输入格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">入格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">输入第一行给出一个正整数 N（≤104），是参赛者人数。随后 N 行给出最终排名，每行按排名顺序给出一位参赛者的 ID（4 位数字组成）。接下来给出一个正整数 K 以及 K 个需要查询的 ID。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输出格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">出格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">对每个要查询的 ID，在一行中输出 <span style=\" font-family:'Courier New';\">ID: 奖品</span>，其中奖品或者是 <span style=\" font-family:'Courier New';\">Mystery Award</span>（神秘大奖）、或者是 <span style=\" font-family:'Courier New';\">Minion</span>（小黄人）、或者是 <span style=\" font-family:'Courier New';\">Chocolate</span>（巧克力）。如果所查 ID 根本不在排名里，打印 <span style=\" font-family:'Courier New';\">Are you kidding?</span>（耍我呢？）。如果该 ID 已经查过了（即奖品已经领过了），打印 <span style=\" font-family:'Courier New';\">ID: Checked</span>（不能多吃多占）。</p></body></html>",
             "name": "1059",
-            "url": ""
+            "url": "https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805269828059136"
         },
         {
             "cases": [
