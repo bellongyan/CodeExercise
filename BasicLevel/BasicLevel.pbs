@@ -998,24 +998,48 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805268334886912"
         },
         {
+            "answer_program": "E:/Projects/Dev-C++/PTA/1063.cpp",
             "cases": [
+                {
+                    "expected": "4.24\n",
+                    "expected_output_filename": "",
+                    "input": "5\n0 1\n2 0\n-1 0\n3 3\n0 -3\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                }
             ],
-            "description": "",
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:19px; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">在数学中，矩阵的“谱半径”是指其特征值的模集合的上确界。换言之，对于给定的 n 个复数空间的特征值 { a1​+b1​i,⋯,an​+bn​i }，它们的模为实部与虚部的平方和的开方，而“谱半径”就是最大模。</p>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">现在给定一些复数空间的特征值，请你计算并输出这些特征值的谱半径。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输入格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">入格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">输入第一行给出正整数 N（≤ 10 000）是输入的特征值的个数。随后 N 行，每行给出 1 个特征值的实部和虚部，其间以空格分隔。注意：题目保证实部和虚部均为绝对值不超过 1000 的整数。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输出格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">出格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">在一行中输出谱半径，四舍五入保留小数点后 2 位。</p></body></html>",
             "name": "1063",
-            "url": ""
+            "url": "https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805267860930560"
         },
         {
+            "answer_program": "E:/Projects/Dev-C++/PTA/1064.cpp",
             "cases": [
+                {
+                    "expected": "4\n3 6 9 26\n",
+                    "expected_output_filename": "",
+                    "input": "8\n123 899 51 998 27 33 36 12\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                }
             ],
             "description": "",
             "name": "1064",
             "url": ""
         },
         {
+            "answer_program": "E:/Projects/Dev-C++/PTA/1065.cpp",
             "cases": [
+                {
+                    "expected": "5\n10000 23333 44444 55555 88888\n",
+                    "expected_output_filename": "",
+                    "input": "3\n11111 22222\n33333 44444\n55555 66666\n7\n55555 44444 10000 88888 22222 11111 23333\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                }
             ],
             "description": "",
-            "name": "试题65",
+            "name": "1065",
             "url": ""
         },
         {
