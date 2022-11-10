@@ -2,7 +2,7 @@
     "name": "PTA",
     "problems": [
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1001.c",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1001.c",
             "cases": [
                 {
                     "expected": "5\n",
@@ -17,7 +17,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805325918486528"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1002.c",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1002.c",
             "cases": [
                 {
                     "expected": "",
@@ -32,7 +32,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805324509200384"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1003.c",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1003.c",
             "cases": [
                 {
                     "expected": "YES\nYES\nYES\nYES\nNO\nNO\nNO\nNO\nNO\nNO\n",
@@ -47,7 +47,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805323154440192"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1004.c",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1004.c",
             "cases": [
                 {
                     "expected": "Mike CS991301\nJoe Math990112\n",
@@ -62,7 +62,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805321640296448"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1005.c",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1005.c",
             "cases": [
                 {
                     "expected": "7 6\n",
@@ -77,7 +77,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805320306507776"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1006.c",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1006.c",
             "cases": [
                 {
                     "expected": "BBSSS1234\n",
@@ -99,7 +99,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805318855278592"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1007.c",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1007.c",
             "cases": [
                 {
                     "expected": "4\n",
@@ -114,7 +114,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805317546655744"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1008.c",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1008.c",
             "cases": [
                 {
                     "expected": "5 6 1 2 3 4\n",
@@ -157,7 +157,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805313708867584"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1011.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1011.cpp",
             "cases": [
                 {
                     "expected": "Case #1: false\nCase #2: true\nCase #3: true\nCase #4: false\n",
@@ -172,7 +172,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805312417021952"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1012.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1012.cpp",
             "cases": [
                 {
                     "expected": "30 11 2 9.7 9\n",
@@ -194,7 +194,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805311146147840"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1013.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1013.cpp",
             "cases": [
                 {
                     "expected": "11 13 17 19 23 29 31 37 41 43\n47 53 59 61 67 71 73 79 83 89\n97 101 103\n",
@@ -209,7 +209,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805309963354112"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1014.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1014.cpp",
             "cases": [
                 {
                     "expected": "THU 14:04\n",
@@ -224,7 +224,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805308755394560"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1015.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1015.cpp",
             "cases": [
                 {
                     "expected": "12\n10000013 90 99\n10000012 80 100\n10000003 85 80\n10000011 85 80\n10000004 80 85\n10000007 90 78\n10000006 83 76\n10000005 82 77\n10000002 90 60\n10000014 66 60\n10000008 75 79\n10000001 64 90\n",
@@ -239,7 +239,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805307551629312"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1016.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1016.cpp",
             "cases": [
                 {
                     "expected": "399\n",
@@ -261,7 +261,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805306310115328"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1017.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1017.cpp",
             "cases": [
                 {
                     "expected": "17636684150141093474 3\n",
@@ -276,7 +276,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805305181847552"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1018.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1018.cpp",
             "cases": [
                 {
                     "expected": "5 3 2\n2 3 5\nB B\n",
@@ -291,7 +291,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805304020025344"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1019.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1019.cpp",
             "cases": [
                 {
                     "expected": "7766 - 6677 = 1089\n9810 - 0189 = 9621\n9621 - 1269 = 8352\n8532 - 2358 = 6174\n",
@@ -313,7 +313,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805302786899968"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1020.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1020.cpp",
             "cases": [
                 {
                     "expected": "94.50\n",
@@ -328,7 +328,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805301562163200"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1021.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1021.cpp",
             "cases": [
                 {
                     "expected": "0:2\n1:3\n3:1\n",
@@ -343,7 +343,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805300404535296"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1022.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1022.cpp",
             "cases": [
                 {
                     "expected": "1103\n",
@@ -358,7 +358,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805299301433344"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1023.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1023.cpp",
             "cases": [
                 {
                     "expected": "10015558\n",
@@ -373,7 +373,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805298269634560"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1024.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1024.cpp",
             "cases": [
                 {
                     "expected": "0.00123400\n",
@@ -395,7 +395,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805297229447168"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1025.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1025.cpp",
             "cases": [
                 {
                     "expected": "00000 4 33218\n33218 3 12309\n12309 2 00100\n00100 1 99999\n99999 5 68237\n68237 6 -1\n",
@@ -410,7 +410,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805296180871168"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1026.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1026.cpp",
             "cases": [
                 {
                     "expected": "12:42:59\n",
@@ -425,7 +425,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805295203598336"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1027.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1027.cpp",
             "cases": [
                 {
                     "expected": "*****\n ***\n  *\n ***\n*****\n2\n",
@@ -440,7 +440,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805294251491328"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1028.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1028.cpp",
             "cases": [
                 {
                     "expected": "3 Tom John\n",
@@ -455,7 +455,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805293282607104"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1029.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1029.cpp",
             "cases": [
                 {
                     "expected": "7TI\n",
@@ -470,7 +470,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805292322111488"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1030.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1030.cpp",
             "cases": [
                 {
                     "expected": "8\n",
@@ -485,7 +485,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805291311284224"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1031.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1031.cpp",
             "cases": [
                 {
                     "expected": "12010X198901011234\n110108196711301866\n37070419881216001X\n",
@@ -500,7 +500,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805290334011392"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1032.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1032.cpp",
             "cases": [
                 {
                     "expected": "2 150\n",
@@ -515,7 +515,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805289432236032"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1033.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1033.cpp",
             "cases": [
                 {
                     "expected": "_hs_s_a_tst\n",
@@ -530,7 +530,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805288530460672"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1034.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1034.cpp",
             "cases": [
                 {
                     "expected": "2/3 + (-2) = (-1 1/3)\n2/3 - (-2) = 2 2/3\n2/3 * (-2) = (-1 1/3)\n2/3 / (-2) = (-1/3)\n",
@@ -552,7 +552,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805287624491008"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1035.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1035.cpp",
             "cases": [
                 {
                     "expected": "Insertion Sort\n1 2 3 5 7 8 9 4 6 0\n",
@@ -574,7 +574,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805286714327040"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1036.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1036.cpp",
             "cases": [
                 {
                     "expected": "aaaaaaaaaa\na        a\na        a\na        a\naaaaaaaaaa\n",
@@ -589,7 +589,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805285812551680"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1037.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1037.cpp",
             "cases": [
                 {
                     "expected": "3.2.1\n",
@@ -611,7 +611,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805284923359232"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1038.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1038.cpp",
             "cases": [
                 {
                     "expected": "3 2 0\n",
@@ -626,7 +626,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805284092887040"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1039.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1039.cpp",
             "cases": [
                 {
                     "expected": "Yes 8\n",
@@ -648,7 +648,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805283241443328"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1040.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1040.cpp",
             "cases": [
                 {
                     "expected": "2\n",
@@ -663,7 +663,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805282389999616"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1041.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1041.cpp",
             "cases": [
                 {
                     "expected": "3310120150912002 2\n3310120150912119 1\n",
@@ -678,7 +678,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805281567916032"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1042.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1042.cpp",
             "cases": [
                 {
                     "expected": "e 7\n",
@@ -693,7 +693,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805280817135616"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1043.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1043.cpp",
             "cases": [
                 {
                     "expected": "PATestPATestPTetPTePePee\n",
@@ -708,7 +708,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805280074743808"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1044.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1044.cpp",
             "cases": [
                 {
                     "expected": "hel mar\nmay\n115\n13\n",
@@ -723,7 +723,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805279328157696"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1045.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1045.cpp",
             "cases": [
                 {
                     "expected": "3\n1 4 5\n",
@@ -766,7 +766,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805277163896832"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1048.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1048.cpp",
             "cases": [
                 {
                     "expected": "3695Q8118\n",
@@ -781,7 +781,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805276438282240"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1049.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1049.cpp",
             "cases": [
                 {
                     "expected": "5.00\n",
@@ -796,7 +796,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805275792359424"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1050.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1050.cpp",
             "cases": [
                 {
                     "expected": "98 95 93\n42 37 81\n53 20 76\n58 60 76\n",
@@ -811,7 +811,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805275146436608"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1051.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1051.cpp",
             "cases": [
                 {
                     "expected": "-8.68-8.23i\n",
@@ -826,7 +826,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805274496319488"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1052.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1052.cpp",
             "cases": [
                 {
                     "expected": "╮(╯▽╰)╭\n<(@Д=)/~\no(^ε^)o\nAre you kidding me? @\\/@\n",
@@ -841,7 +841,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805273883951104"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1053.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1053.cpp",
             "cases": [
                 {
                     "expected": "40.0% 20.0%\n",
@@ -856,7 +856,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805273284165632"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1054.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1054.cpp",
             "cases": [
                 {
                     "expected": "ERROR: aaa is not a legal number\nERROR: 9999 is not a legal number\nERROR: 2.3.4 is not a legal number\nERROR: 7.123 is not a legal number\nThe average of 3 numbers is 1.38\n",
@@ -878,7 +878,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805272659214336"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1055.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1055.cpp",
             "cases": [
                 {
                     "expected": "Bob Tom Joe Nick\nAnn Mike Eva\nTim Amy John\n",
@@ -893,7 +893,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805272021680128"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1056.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1056.cpp",
             "cases": [
                 {
                     "expected": "330\n",
@@ -908,7 +908,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805271455449088"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1057.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1057.cpp",
             "cases": [
                 {
                     "expected": "3 4\n",
@@ -923,7 +923,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805270914383872"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1058.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1058.cpp",
             "cases": [
                 {
                     "expected": "3\n6\n5\n2 2 3 4\n",
@@ -938,7 +938,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805270356541440"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1059.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1059.cpp",
             "cases": [
                 {
                     "expected": "8888: Minion\n0001: Chocolate\n1111: Mystery Award\n2222: Are you kidding?\n8888: Checked\n2222: Are you kidding?\n",
@@ -953,7 +953,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805269828059136"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1060.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1060.cpp",
             "cases": [
                 {
                     "expected": "6\n",
@@ -968,7 +968,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805269312159744"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1061.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1061.cpp",
             "cases": [
                 {
                     "expected": "13\n11\n12\n",
@@ -983,7 +983,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805268817231872"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1062.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1062.cpp",
             "cases": [
                 {
                     "expected": "5/12 7/12\n",
@@ -998,7 +998,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805268334886912"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1063.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1063.cpp",
             "cases": [
                 {
                     "expected": "4.24\n",
@@ -1013,7 +1013,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805267860930560"
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1064.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1064.cpp",
             "cases": [
                 {
                     "expected": "4\n3 6 9 26\n",
@@ -1028,7 +1028,7 @@
             "url": ""
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1065.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1065.cpp",
             "cases": [
                 {
                     "expected": "5\n10000 23333 44444 55555 88888\n",
@@ -1274,7 +1274,7 @@
             "url": ""
         },
         {
-            "answer_program": "E:/Projects/Dev-C++/PTA/1099.cpp",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1099.cpp",
             "cases": [
                 {
                     "expected": "Yes\n41\n",
