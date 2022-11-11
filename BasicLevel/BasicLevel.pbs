@@ -1058,11 +1058,26 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805266514558976"
         },
         {
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1067.cpp",
             "cases": [
+                {
+                    "expected": "Wrong password: correct%pw\nWrong password: Correct@PW\nWrong password: whatisthepassword!\nAccount locked\n",
+                    "expected_output_filename": "",
+                    "input": "Correct%pw 3\ncorrect%pw\nCorrect@PW\nwhatisthepassword!\nCorrect%pw\n#\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                },
+                {
+                    "expected": "Wrong password: coolman@gplt\nWrong password: coollady@gplt\nWelcome in\n",
+                    "expected_output_filename": "",
+                    "input": "cool@gplt 3\ncoolman@gplt\ncoollady@gplt\ncool@gplt\ntry again\n#\n",
+                    "input_filename": "",
+                    "name": "试题案例2"
+                }
             ],
-            "description": "",
-            "name": "试题67",
-            "url": ""
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:19px; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">当你试图登录某个系统却忘了密码时，系统一般只会允许你尝试有限多次，当超出允许次数时，账号就会被锁死。本题就请你实现这个小功能。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输入格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">入格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">输入在第一行给出一个密码（长度不超过 20 的、不包含空格、Tab、回车的非空字符串）和一个正整数 N（≤ 10），分别是正确的密码和系统允许尝试的次数。随后每行给出一个以回车结束的非空字符串，是用户尝试输入的密码。输入保证至少有一次尝试。当读到一行只有单个 # 字符时，输入结束，并且这一行不是用户的输入。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输出格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">出格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">对用户的每个输入，如果是正确的密码且尝试次数不超过 N，则在一行中输出 <span style=\" font-family:'Courier New';\">Welcome in</span>，并结束程序；如果是错误的，则在一行中按格式输出 <span style=\" font-family:'Courier New';\">Wrong password: 用户输入的错误密码</span>；当错误尝试达到 N 次时，再输出一行 <span style=\" font-family:'Courier New';\">Account locked</span>，并结束程序。</p></body></html>",
+            "name": "1067",
+            "url": "https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805266007048192"
         },
         {
             "cases": [
