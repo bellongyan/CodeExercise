@@ -1080,11 +1080,33 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805266007048192"
         },
         {
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1068.cpp",
             "cases": [
+                {
+                    "expected": "(5, 3): 16711680\n",
+                    "expected_output_filename": "",
+                    "input": "8 6 200\n0 \t 0 \t  0 \t   0\t    0 \t     0 \t      0        0\n65280 \t 65280    65280    16711479 65280    65280    65280    65280\n16711479 65280    65280    65280    16711680 65280    65280    65280\n65280 \t 65280    65280    65280    65280    65280    165280   165280\n65280 \t 65280 \t  16777015 65280    65280    165280   65480    165280\n16777215 16777215 16777215 16777215 16777215 16777215 16777215 16777215\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                },
+                {
+                    "expected": "Not Unique\n",
+                    "expected_output_filename": "",
+                    "input": "4 5 2\n0 0 0 0\n0 0 3 0\n0 0 0 0\n0 5 0 0\n0 0 0 0\n",
+                    "input_filename": "",
+                    "name": "试题案例2"
+                },
+                {
+                    "expected": "Not Exist\n",
+                    "expected_output_filename": "",
+                    "input": "3 3 5\n1 2 3\n3 4 5\n5 6 7\n",
+                    "input_filename": "",
+                    "name": "试题案例3"
+                }
             ],
-            "description": "",
-            "name": "试题68",
-            "url": ""
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:19px; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">对于计算机而言，颜色不过是像素点对应的一个 24 位的数值。现给定一幅分辨率为 M×N 的画，要求你找出万绿丛中的一点红，即有独一无二颜色的那个像素点，并且该点的颜色与其周围 8 个相邻像素的颜色差充分大。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输入格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">入格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">输入第一行给出三个正整数，分别是 M 和 N（≤ 1000），即图像的分辨率；以及 TOL，是所求像素点与相邻点的颜色差阈值，色差超过 TOL 的点才被考虑。随后 N 行，每行给出 M 个像素的颜色值，范围在 [0,224) 内。所有同行数字间用空格或 TAB 分开。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输出格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">出格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">在一行中按照 <span style=\" font-family:'Courier New';\">(x, y): color</span> 的格式输出所求像素点的位置以及颜色值，其中位置 <span style=\" font-family:'Courier New';\">x</span> 和 <span style=\" font-family:'Courier New';\">y</span> 分别是该像素在图像矩阵中的列、行编号（从 1 开始编号）。如果这样的点不唯一，则输出 <span style=\" font-family:'Courier New';\">Not Unique</span>；如果这样的点不存在，则输出 <span style=\" font-family:'Courier New';\">Not Exist</span>。</p></body></html>",
+            "name": "1068",
+            "url": "https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805265579229184"
         },
         {
             "cases": [
