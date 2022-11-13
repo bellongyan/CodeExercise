@@ -2,7 +2,7 @@
     "name": "PTA",
     "problems": [
         {
-            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1001.c",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1001.cpp",
             "cases": [
                 {
                     "expected": "5\n",
@@ -17,7 +17,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805325918486528"
         },
         {
-            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1002.c",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1002.cpp",
             "cases": [
                 {
                     "expected": "",
@@ -32,7 +32,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805324509200384"
         },
         {
-            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1003.c",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1003.cpp",
             "cases": [
                 {
                     "expected": "YES\nYES\nYES\nYES\nNO\nNO\nNO\nNO\nNO\nNO\n",
@@ -47,7 +47,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805323154440192"
         },
         {
-            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1004.c",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1004.cpp",
             "cases": [
                 {
                     "expected": "Mike CS991301\nJoe Math990112\n",
@@ -62,7 +62,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805321640296448"
         },
         {
-            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1005.c",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1005.cpp",
             "cases": [
                 {
                     "expected": "7 6\n",
@@ -77,7 +77,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805320306507776"
         },
         {
-            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1006.c",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1006.cpp",
             "cases": [
                 {
                     "expected": "BBSSS1234\n",
@@ -99,7 +99,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805318855278592"
         },
         {
-            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1007.c",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1007.cpp",
             "cases": [
                 {
                     "expected": "4\n",
@@ -114,7 +114,7 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/problems/994805317546655744"
         },
         {
-            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1008.c",
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1008.cpp",
             "cases": [
                 {
                     "expected": "5 6 1 2 3 4\n",
@@ -1109,11 +1109,26 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805265579229184"
         },
         {
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1069.cpp",
             "cases": [
+                {
+                    "expected": "PickMe\nImgonnawin!\nTryAgainAgain\n",
+                    "expected_output_filename": "",
+                    "input": "9 3 2\nImgonnawin!\nPickMe\nPickMe\nLookHere\nImgonnawin!\nTryAgainAgain\nTryAgainAgain\nImgonnawin!\nTryAgainAgain\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                },
+                {
+                    "expected": "Keep going...\n",
+                    "expected_output_filename": "",
+                    "input": "2 3 5\nImgonnawin!\nPickMe\n",
+                    "input_filename": "",
+                    "name": "试题案例2"
+                }
             ],
-            "description": "",
-            "name": "试题69",
-            "url": ""
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:18px; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">小明 PAT 考了满分，高兴之余决定发起微博转发抽奖活动，从转发的网友中按顺序每隔 N 个人就发出一个红包。请你编写程序帮助他确定中奖名单。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输入格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">入格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">输入第一行给出三个正整数 M（≤ 1000）、N 和 S，分别是转发的总量、小明决定的中奖间隔、以及第一位中奖者的序号（编号从 1 开始）。随后 M 行，顺序给出转发微博的网友的昵称（不超过 20 个字符、不包含空格回车的非空字符串）。</p>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">注意：可能有人转发多次，但不能中奖多次。所以如果处于当前中奖位置的网友已经中过奖，则跳过他顺次取下一位。</p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输出格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">出格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">按照输入的顺序输出中奖名单，每个昵称占一行。如果没有人中奖，则输出 <span style=\" font-family:'Courier New';\">Keep going...</span>。</p></body></html>",
+            "name": "1069",
+            "url": "https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805265159798784"
         },
         {
             "cases": [
