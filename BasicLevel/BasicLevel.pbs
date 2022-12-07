@@ -1,4 +1,5 @@
 {
+    "current_index": 97,
     "name": "PTA",
     "problems": [
         {
@@ -1131,10 +1132,18 @@
             "url": "https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805265159798784"
         },
         {
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1070.cpp",
             "cases": [
+                {
+                    "expected": "14\n",
+                    "expected_output_filename": "",
+                    "input": "8\n10 15 12 3 4 13 1 15\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                }
             ],
             "description": "",
-            "name": "试题70",
+            "name": "1070",
             "url": ""
         },
         {
@@ -1327,11 +1336,26 @@
             "url": ""
         },
         {
+            "answer_program": "D:/Files/Projects/Dev-C++/PTA/1098.cpp",
             "cases": [
+                {
+                    "expected": "Yes 1\n",
+                    "expected_output_filename": "",
+                    "input": "11\n7 6 5 5 6 5 4 5 5 4 4\n3 2 2 2 2 3 3 2 1 2 3\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                },
+                {
+                    "expected": "No 1\n",
+                    "expected_output_filename": "",
+                    "input": "11\n7 6 5 5 6 5 4 5 5 4 4\n3 2 2 2 3 4 3 2 1 2 3\n",
+                    "input_filename": "",
+                    "name": "试题案例2"
+                }
             ],
-            "description": "",
-            "name": "试题98",
-            "url": ""
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:18px; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:18px;\">要将一条直径至少为 1 个单位的长管道水平送入地形复杂的岩洞中，究竟是否可能？下面的两幅图分别给出了岩洞的剖面图，深蓝色的折线勾勒出岩洞顶部和底部的轮廓。图 1 是有可能的，绿色部分显示直径为 1 的管道可以送入。图 2 就不可能，除非把顶部或底部的突出部分削掉 1 个单位的高度。</span></p>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\"https://images.ptausercontent.com/ce4d503a-5692-402b-bbc4-0d4feed5d88b.JPG\" alt=\"fig.JPG\" /></p>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:18px;\">本题就请你编写程序，判断给定的岩洞中是否可以施工。</span></p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输入格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">入格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:18px;\">输入在第一行给出一个不超过 100 的正整数 N，即横向采样的点数。随后两行数据，从左到右顺次给出采样点的纵坐标：第 1 行是岩洞顶部的采样点，第 2 行是岩洞底部的采样点。这里假设坐标原点在左下角，每个纵坐标为不超过 1000 的非负整数。同行数字间以空格分隔。</span></p>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:18px;\">题目保证输入数据是合理的，即岩洞底部的轮廓线不会与顶部轮廓线交叉。</span></p>\n<h3 style=\" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a name=\"输出格式：\"></a><span style=\" font-size:large; font-weight:600;\">输</span><span style=\" font-size:large; font-weight:600;\">出格式：</span></h3>\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:18px;\">如果可以直接施工，则在一行中输出 </span><span style=\" font-family:'Courier New'; font-size:18px;\">Yes</span><span style=\" font-size:18px;\"> 和可以送入的管道的最大直径；如果不行，则输出 </span><span style=\" font-family:'Courier New'; font-size:18px;\">No</span><span style=\" font-size:18px;\"> 和至少需要削掉的高度。答案和数字间以 1 个空格分隔。</span></p></body></html>",
+            "name": "1098",
+            "url": "https://pintia.cn/problem-sets/994805260223102976/exam/problems/1478633798962888704"
         },
         {
             "answer_program": "D:/Files/Projects/Dev-C++/PTA/1099.cpp",
