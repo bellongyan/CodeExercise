@@ -27,10 +27,12 @@ int main()
 {
 	int N, M;
 	cin >> N >> M;
-	vector<string> ms(7);
+	vector<string> ms;
 	for (int i = 0; i < M; i++)
 	{
-		cin >> ms[i];
+		string m;
+		cin >> m;
+		ms.push_back(m);
 	}
 	int countStu = 0, countItem = 0;
 	for (int i = 0; i < N; i++)
