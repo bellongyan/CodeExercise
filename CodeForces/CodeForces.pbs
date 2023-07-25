@@ -1,0 +1,89 @@
+{
+    "current_index": 3,
+    "name": "试题集3",
+    "problems": [
+        {
+            "answer_program": "D:/Files/Projects/Cpp/CodeExercise/CodeForces/A. Watermelon.cpp",
+            "cases": [
+                {
+                    "expected": "YES\n",
+                    "expected_output_filename": "",
+                    "input": "8\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                }
+            ],
+            "description": "",
+            "memory_limit": 0,
+            "memory_limit_unit": 1,
+            "name": "A. Watermelon",
+            "time_limit": 0,
+            "time_limit_unit": 0,
+            "url": "https://codeforces.com/problemset/problem/4/A"
+        },
+        {
+            "answer_program": "D:/Files/Projects/Cpp/CodeExercise/CodeForces/A. Way Too Long Words.cpp",
+            "cases": [
+                {
+                    "expected": "word\nl10n\ni18n\np43s\n",
+                    "expected_output_filename": "",
+                    "input": "4\nword\nlocalization\ninternationalization\npneumonoultramicroscopicsilicovolcanoconiosis\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                }
+            ],
+            "description": "",
+            "memory_limit": 0,
+            "memory_limit_unit": 1,
+            "name": "A. Way Too Long Words",
+            "time_limit": 0,
+            "time_limit_unit": 0,
+            "url": "https://codeforces.com/problemset/problem/71/A"
+        },
+        {
+            "answer_program": "D:/Files/Projects/Cpp/CodeExercise/CodeForces/A. Team.cpp",
+            "cases": [
+                {
+                    "expected": "2\n",
+                    "expected_output_filename": "",
+                    "input": "3\n1 1 0\n1 1 1\n1 0 0\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                },
+                {
+                    "expected": "1\n",
+                    "expected_output_filename": "",
+                    "input": "2\n1 0 0\n0 1 1\n",
+                    "input_filename": "",
+                    "name": "试题案例2"
+                }
+            ],
+            "description": "",
+            "memory_limit": 0,
+            "memory_limit_unit": 1,
+            "name": "A. Team",
+            "time_limit": 0,
+            "time_limit_unit": 0,
+            "url": "https://codeforces.com/problemset/problem/231/A"
+        },
+        {
+            "answer_program": "D:/Files/Projects/Cpp/CodeExercise/CodeForces/A. Theatre Square.cpp",
+            "cases": [
+                {
+                    "expected": "4\n",
+                    "expected_output_filename": "",
+                    "input": "6 6 4\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                }
+            ],
+            "description": "",
+            "memory_limit": 0,
+            "memory_limit_unit": 1,
+            "name": "A. Theatre Square",
+            "time_limit": 0,
+            "time_limit_unit": 0,
+            "url": "https://codeforces.com/problemset/problem/1/A"
+        }
+    ]
+}

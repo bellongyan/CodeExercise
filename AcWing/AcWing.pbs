@@ -1,0 +1,25 @@
+{
+    "current_index": 0,
+    "name": "试题集2",
+    "problems": [
+        {
+            "answer_program": "D:/Files/Projects/Cpp/CodeExercise/AcWing/ProblemSet/1.cpp",
+            "cases": [
+                {
+                    "expected": "7\n",
+                    "expected_output_filename": "",
+                    "input": "3 4\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                }
+            ],
+            "description": "",
+            "memory_limit": 0,
+            "memory_limit_unit": 1,
+            "name": "A + B",
+            "time_limit": 0,
+            "time_limit_unit": 0,
+            "url": "https://www.acwing.com/problem/content/1/"
+        }
+    ]
+}
