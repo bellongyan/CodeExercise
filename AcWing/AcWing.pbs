@@ -1,5 +1,5 @@
 {
-    "current_index": 0,
+    "current_index": 2,
     "name": "试题集2",
     "problems": [
         {
@@ -20,6 +20,65 @@
             "time_limit": 0,
             "time_limit_unit": 0,
             "url": "https://www.acwing.com/problem/content/1/"
+        },
+        {
+            "answer_program": "D:/Files/Projects/Cpp/CodeExercise/AcWing/ProblemSet/2.cpp",
+            "cases": [
+                {
+                    "expected": "8\n",
+                    "expected_output_filename": "",
+                    "input": "4 5\n1 2\n2 4\n3 4\n4 5\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                },
+                {
+                    "expected": "184\n",
+                    "expected_output_filename": "",
+                    "input": "10 100\n5 8\n32 47\n17 43\n7 9\n6 4\n29 40\n2 6\n14 31\n6 17\n1 3\n",
+                    "input_filename": "",
+                    "name": "试题案例2"
+                }
+            ],
+            "description": "",
+            "memory_limit": 0,
+            "memory_limit_unit": 1,
+            "name": "01背包问题",
+            "time_limit": 0,
+            "time_limit_unit": 0,
+            "url": "https://www.acwing.com/problem/content/2/"
+        },
+        {
+            "answer_program": "D:/Files/Projects/Cpp/CodeExercise/AcWing/考研408-数据结构（上机）/3693.cpp",
+            "cases": [
+                {
+                    "expected": "yes\n",
+                    "expected_output_filename": "",
+                    "input": "(){}\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                },
+                {
+                    "expected": "yes\n",
+                    "expected_output_filename": "",
+                    "input": "{({<[][]>([])})()}<>\n",
+                    "input_filename": "",
+                    "name": "试题案例2"
+                },
+                {
+                    "expected": "yes\n",
+                    "expected_output_filename": "",
+                    "input": "{({<[][]>([])})()}<>",
+                    "input_filename": "",
+                    "name": "试题案例3"
+                }
+            ],
+            "description": "",
+            "memory_limit": 0,
+            "memory_limit_unit": 1,
+            "name": "括号匹配",
+            "time_limit": 0,
+            "time_limit_unit": 0,
+            "url": "https://www.acwing.com/problem/content/3696/"
         }
     ]
 }
