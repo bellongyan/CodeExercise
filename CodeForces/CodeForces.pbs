@@ -1,5 +1,5 @@
 {
-    "current_index": 3,
+    "current_index": 4,
     "name": "试题集3",
     "problems": [
         {
@@ -84,6 +84,46 @@
             "time_limit": 0,
             "time_limit_unit": 0,
             "url": "https://codeforces.com/problemset/problem/1/A"
+        },
+        {
+            "answer_program": "D:/Files/Projects/Cpp/CodeExercise/CodeForces/A. Next Round.cpp",
+            "cases": [
+                {
+                    "expected": "6\n",
+                    "expected_output_filename": "",
+                    "input": "8 5\n10 9 8 7 7 7 5 5\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                },
+                {
+                    "expected": "0\n",
+                    "expected_output_filename": "",
+                    "input": "4 2\n0 0 0 0\n",
+                    "input_filename": "",
+                    "name": "试题案例2"
+                },
+                {
+                    "expected": "5\n",
+                    "expected_output_filename": "",
+                    "input": "5 5\n1 1 1 1 1\n",
+                    "input_filename": "",
+                    "name": "试题案例3"
+                },
+                {
+                    "expected": "3\n",
+                    "expected_output_filename": "",
+                    "input": "5 5\n3 2 1 0 0\n",
+                    "input_filename": "",
+                    "name": "试题案例4"
+                }
+            ],
+            "description": "",
+            "memory_limit": 0,
+            "memory_limit_unit": 1,
+            "name": "A. Next Round",
+            "time_limit": 0,
+            "time_limit_unit": 0,
+            "url": "https://codeforces.com/problemset/problem/158/A"
         }
     ]
 }
