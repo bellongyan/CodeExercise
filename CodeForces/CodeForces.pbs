@@ -1,5 +1,5 @@
 {
-    "current_index": 7,
+    "current_index": 8,
     "name": "试题集3",
     "problems": [
         {
@@ -202,6 +202,25 @@
             "time_limit": 0,
             "time_limit_unit": 0,
             "url": "https://codeforces.com/problemset/problem/1328/A"
+        },
+        {
+            "answer_program": "D:/Files/Projects/Cpp/CodeExercise/CodeForces/A. Candies and Two Sisters.cpp",
+            "cases": [
+                {
+                    "expected": "3\n0\n0\n1\n999999999\n381621773\n",
+                    "expected_output_filename": "",
+                    "input": "6\n7\n1\n2\n3\n2000000000\n763243547\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                }
+            ],
+            "description": "",
+            "memory_limit": 0,
+            "memory_limit_unit": 1,
+            "name": "A. Candies and Two Sisters",
+            "time_limit": 0,
+            "time_limit_unit": 0,
+            "url": "https://codeforces.com/problemset/problem/1335/A"
         }
     ]
 }
