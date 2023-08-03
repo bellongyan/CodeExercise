@@ -1,5 +1,5 @@
 {
-    "current_index": 15,
+    "current_index": 17,
     "name": "试题集3",
     "problems": [
         {
@@ -417,6 +417,65 @@
             "time_limit": 0,
             "time_limit_unit": 0,
             "url": "https://codeforces.com/problemset/problem/160/A"
+        },
+        {
+            "answer_program": "D:/Files/Projects/Cpp/CodeExercise/CodeForces/A. String Task.cpp",
+            "cases": [
+                {
+                    "expected": ".t.r\n",
+                    "expected_output_filename": "",
+                    "input": "tour\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                },
+                {
+                    "expected": ".c.d.f.r.c.s\n",
+                    "expected_output_filename": "",
+                    "input": "Codeforces\n",
+                    "input_filename": "",
+                    "name": "试题案例2"
+                },
+                {
+                    "expected": ".b.c.b\n",
+                    "expected_output_filename": "",
+                    "input": "aBAcAba\n",
+                    "input_filename": "",
+                    "name": "试题案例3"
+                }
+            ],
+            "description": "",
+            "memory_limit": 0,
+            "memory_limit_unit": 1,
+            "name": "A. String Task",
+            "time_limit": 0,
+            "time_limit_unit": 0,
+            "url": "https://codeforces.com/problemset/problem/118/A"
+        },
+        {
+            "answer_program": "D:/Files/Projects/Cpp/CodeExercise/CodeForces/A. Chat room.cpp",
+            "cases": [
+                {
+                    "expected": "YES\n",
+                    "expected_output_filename": "",
+                    "input": "ahhellllloou\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                },
+                {
+                    "expected": "NO\n",
+                    "expected_output_filename": "",
+                    "input": "hlelo\n",
+                    "input_filename": "",
+                    "name": "试题案例2"
+                }
+            ],
+            "description": "",
+            "memory_limit": 0,
+            "memory_limit_unit": 1,
+            "name": "A. Chat room",
+            "time_limit": 0,
+            "time_limit_unit": 0,
+            "url": "https://codeforces.com/problemset/problem/58/A"
         }
     ]
 }
