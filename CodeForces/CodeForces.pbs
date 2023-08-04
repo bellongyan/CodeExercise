@@ -1,5 +1,5 @@
 {
-    "current_index": 17,
+    "current_index": 18,
     "name": "试题集3",
     "problems": [
         {
@@ -476,6 +476,39 @@
             "time_limit": 0,
             "time_limit_unit": 0,
             "url": "https://codeforces.com/problemset/problem/58/A"
+        },
+        {
+            "answer_program": "D:/Files/Projects/Cpp/CodeExercise/CodeForces/A. Lucky Division.cpp",
+            "cases": [
+                {
+                    "expected": "YES\n",
+                    "expected_output_filename": "",
+                    "input": "47\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                },
+                {
+                    "expected": "YES\n",
+                    "expected_output_filename": "",
+                    "input": "16\n",
+                    "input_filename": "",
+                    "name": "试题案例2"
+                },
+                {
+                    "expected": "NO\n",
+                    "expected_output_filename": "",
+                    "input": "78\n",
+                    "input_filename": "",
+                    "name": "试题案例3"
+                }
+            ],
+            "description": "",
+            "memory_limit": 0,
+            "memory_limit_unit": 1,
+            "name": "A. Lucky Division",
+            "time_limit": 0,
+            "time_limit_unit": 0,
+            "url": "https://codeforces.com/problemset/problem/122/A"
         }
     ]
 }
