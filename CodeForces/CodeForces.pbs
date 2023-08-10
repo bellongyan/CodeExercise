@@ -1,5 +1,5 @@
 {
-    "current_index": 19,
+    "current_index": 20,
     "name": "试题集3",
     "problems": [
         {
@@ -511,6 +511,7 @@
             "url": "https://codeforces.com/problemset/problem/122/A"
         },
         {
+            "answer_program": "D:/Files/Projects/Cpp/CodeExercise/CodeForces/A. Mishka and Game.cpp",
             "cases": [
                 {
                     "expected": "Mishka\n",
@@ -541,6 +542,25 @@
             "time_limit": 0,
             "time_limit_unit": 0,
             "url": "https://codeforces.com/problemset/problem/703/A"
+        },
+        {
+            "answer_program": "D:/Files/Projects/Cpp/CodeExercise/CodeForces/A. Marathon.cpp",
+            "cases": [
+                {
+                    "expected": "2\n0\n1\n3\n",
+                    "expected_output_filename": "",
+                    "input": "4\n2 3 4 1\n10000 0 1 2\n500 600 400 300\n0 9999 10000 9998\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                }
+            ],
+            "description": "",
+            "memory_limit": 0,
+            "memory_limit_unit": 1,
+            "name": "A. Marathon",
+            "time_limit": 0,
+            "time_limit_unit": 0,
+            "url": "https://codeforces.com/problemset/problem/1692/A"
         }
     ]
 }
