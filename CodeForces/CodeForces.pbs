@@ -1,5 +1,5 @@
 {
-    "current_index": 18,
+    "current_index": 19,
     "name": "试题集3",
     "problems": [
         {
@@ -509,6 +509,38 @@
             "time_limit": 0,
             "time_limit_unit": 0,
             "url": "https://codeforces.com/problemset/problem/122/A"
+        },
+        {
+            "cases": [
+                {
+                    "expected": "Mishka\n",
+                    "expected_output_filename": "",
+                    "input": "3\n3 5\n2 1\n4 2\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                },
+                {
+                    "expected": "Friendship is magic!^^\n",
+                    "expected_output_filename": "",
+                    "input": "2\n6 1\n1 6\n",
+                    "input_filename": "",
+                    "name": "试题案例2"
+                },
+                {
+                    "expected": "Chris\n",
+                    "expected_output_filename": "",
+                    "input": "3\n1 5\n3 3\n2 2\n",
+                    "input_filename": "",
+                    "name": "试题案例3"
+                }
+            ],
+            "description": "",
+            "memory_limit": 0,
+            "memory_limit_unit": 1,
+            "name": "A. Mishka and Game",
+            "time_limit": 0,
+            "time_limit_unit": 0,
+            "url": "https://codeforces.com/problemset/problem/703/A"
         }
     ]
 }
