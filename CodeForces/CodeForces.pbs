@@ -1,5 +1,5 @@
 {
-    "current_index": 20,
+    "current_index": 21,
     "name": "试题集3",
     "problems": [
         {
@@ -561,6 +561,25 @@
             "time_limit": 0,
             "time_limit_unit": 0,
             "url": "https://codeforces.com/problemset/problem/1692/A"
+        },
+        {
+            "answer_program": "D:/Files/Projects/Cpp/CodeExercise/CodeForces/A. Dislike of Threes.cpp",
+            "cases": [
+                {
+                    "expected": "1\n2\n4\n5\n7\n8\n10\n11\n14\n1666\n",
+                    "expected_output_filename": "",
+                    "input": "10\n1\n2\n3\n4\n5\n6\n7\n8\n9\n1000\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                }
+            ],
+            "description": "",
+            "memory_limit": 0,
+            "memory_limit_unit": 1,
+            "name": "A. Dislike of Threes",
+            "time_limit": 0,
+            "time_limit_unit": 0,
+            "url": "https://codeforces.com/problemset/problem/1560/A"
         }
     ]
 }
