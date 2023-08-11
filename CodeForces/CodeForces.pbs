@@ -1,5 +1,5 @@
 {
-    "current_index": 22,
+    "current_index": 26,
     "name": "试题集3",
     "problems": [
         {
@@ -599,6 +599,110 @@
             "time_limit": 0,
             "time_limit_unit": 0,
             "url": "https://codeforces.com/problemset/problem/1542/A"
+        },
+        {
+            "answer_program": "D:/Files/Projects/Cpp/CodeExercise/CodeForces/A. Young Physicist.cpp",
+            "cases": [
+                {
+                    "expected": "NO\n",
+                    "expected_output_filename": "",
+                    "input": "3\n4 1 7\n-2 4 -1\n1 -5 -3\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                },
+                {
+                    "expected": "YES\n",
+                    "expected_output_filename": "",
+                    "input": "3\n3 -1 7\n-5 2 -4\n2 -1 -3\n",
+                    "input_filename": "",
+                    "name": "试题案例2"
+                }
+            ],
+            "description": "",
+            "memory_limit": 0,
+            "memory_limit_unit": 1,
+            "name": "A. Young Physicist",
+            "time_limit": 0,
+            "time_limit_unit": 0,
+            "url": "https://codeforces.com/problemset/problem/69/A"
+        },
+        {
+            "answer_program": "D:/Files/Projects/Cpp/CodeExercise/CodeForces/A. Expression.cpp",
+            "cases": [
+                {
+                    "expected": "9\n",
+                    "expected_output_filename": "",
+                    "input": "1\n2\n3\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                },
+                {
+                    "expected": "60\n",
+                    "expected_output_filename": "",
+                    "input": "2\n10\n3\n",
+                    "input_filename": "",
+                    "name": "试题案例2"
+                }
+            ],
+            "description": "",
+            "memory_limit": 0,
+            "memory_limit_unit": 1,
+            "name": "A. Expression",
+            "time_limit": 0,
+            "time_limit_unit": 0,
+            "url": "https://codeforces.com/problemset/problem/479/A"
+        },
+        {
+            "answer_program": "D:/Files/Projects/Cpp/CodeExercise/CodeForces/A. cAPS lOCK.cpp",
+            "cases": [
+                {
+                    "expected": "Caps\n",
+                    "expected_output_filename": "",
+                    "input": "cAPS\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                },
+                {
+                    "expected": "Lock\n",
+                    "expected_output_filename": "",
+                    "input": "Lock\n",
+                    "input_filename": "",
+                    "name": "试题案例2"
+                }
+            ],
+            "description": "",
+            "memory_limit": 0,
+            "memory_limit_unit": 1,
+            "name": "A. cAPS lOCK",
+            "time_limit": 0,
+            "time_limit_unit": 0,
+            "url": "https://codeforces.com/problemset/problem/131/A"
+        },
+        {
+            "answer_program": "D:/Files/Projects/Cpp/CodeExercise/CodeForces/A. IQ test.cpp",
+            "cases": [
+                {
+                    "expected": "3\n",
+                    "expected_output_filename": "",
+                    "input": "5\n2 4 7 8 10\n",
+                    "input_filename": "",
+                    "name": "试题案例1"
+                },
+                {
+                    "expected": "2\n",
+                    "expected_output_filename": "",
+                    "input": "4\n1 2 1 1\n",
+                    "input_filename": "",
+                    "name": "试题案例2"
+                }
+            ],
+            "description": "",
+            "memory_limit": 0,
+            "memory_limit_unit": 1,
+            "name": "A. IQ test",
+            "time_limit": 0,
+            "time_limit_unit": 0,
+            "url": "https://codeforces.com/problemset/problem/25/A"
         }
     ]
 }
